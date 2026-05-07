@@ -11,3 +11,5 @@ ENV/
 ############################
 .pytest_cache/
 .cache/
+
+config/config.yaml
