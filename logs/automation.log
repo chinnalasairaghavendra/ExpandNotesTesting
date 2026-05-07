@@ -7485,3 +7485,23 @@
 2026-05-07 15:03:54,105 | INFO | test_api_to_ui_validation | Note created and visible in UI
 2026-05-07 15:03:54,105 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
 2026-05-07 15:04:07,216 | INFO | conftest | Closing browser
+2026-05-07 15:13:19,747 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:13:19,747 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 15:14:28,920 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 15:14:28,927 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:14:28,927 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 15:16:19,331 | INFO | AuthAPI | Response Status -> 502
+2026-05-07 15:16:19,414 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:16:19,414 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 15:17:14,135 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 15:17:14,142 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:17:14,142 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 15:17:44,957 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:17:44,958 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 15:18:28,921 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 15:18:28,925 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 15:18:28,925 | INFO | NotesAPI | Payload -> {'title': 'DELETE-f729571d-05ef-4ab9-9702-18a8d48f5e60', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 15:19:02,284 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 15:19:02,285 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc600ad87b0c0297c434a7
+2026-05-07 15:27:34,145 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 15:27:34,145 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
