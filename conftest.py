@@ -70,11 +70,6 @@ def driver():
     options.add_argument(
         "--disable-extensions"
     )
-
-    options.add_argument(
-        "--disable-gpu"
-    )
-
     options.add_argument(
         "--window-size=1920,1080"
     )
@@ -109,10 +104,6 @@ def driver():
 
     options.add_argument(
         "--ignore-certificate-errors"
-    )
-
-    options.add_argument(
-        "--remote-debugging-port=9222"
     )
 
     options.add_argument(

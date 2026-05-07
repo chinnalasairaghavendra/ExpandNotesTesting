@@ -13,3 +13,4 @@ ENV/
 .cache/
 
 config/config.yaml
+screenshots

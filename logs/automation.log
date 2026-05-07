@@ -7505,3 +7505,1470 @@
 2026-05-07 15:19:02,285 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc600ad87b0c0297c434a7
 2026-05-07 15:27:34,145 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
 2026-05-07 15:27:34,145 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:32,929 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:32,929 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:32,929 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:26:32,929 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:32,929 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:32,930 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:35,304 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:26:35,312 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:35,312 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:39,214 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:26:39,218 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:26:39,218 | INFO | NotesAPI | Payload -> {'title': 'DELETE-1d97d1c9-7112-47c0-bdbc-6495c564f2df', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:26:39,532 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:26:39,534 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:26:39,537 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:26:39,538 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:39,538 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:26:42,251 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:26:42,255 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:26:42,255 | INFO | NotesAPI | Payload -> {'title': 'API-669f1e08-2fd8-427f-b63a-1d2d3aadd8a9', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:26:44,331 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:26:44,337 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:44,337 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:48,819 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:26:48,820 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8c0e0fadc10297dbf478
+2026-05-07 18:26:49,785 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:26:49,887 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:26:52,410 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:26:52,414 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:26:52,414 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:26:52,651 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:26:52,656 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:52,656 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:56,333 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:26:56,339 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:26:56,736 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:26:56,743 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:26:56,743 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:26:57,852 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:26:57,852 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:27:00,405 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:00,405 | INFO | conftest | Running tests locally
+2026-05-07 18:27:00,412 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:27:00,415 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:27:03,704 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:27:04,643 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:27:04,646 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:27:04,647 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:27:05,773 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:27:05,780 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:08,918 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:27:08,928 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:27:08,928 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:27:09,208 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:27:09,212 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:09,873 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:09,873 | INFO | conftest | Running tests locally
+2026-05-07 18:27:13,299 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:13,299 | INFO | conftest | Running tests locally
+2026-05-07 18:27:15,301 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:17,059 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:27:17,064 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:27:17,065 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:27:18,760 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:19,351 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:19,352 | INFO | conftest | Running tests locally
+2026-05-07 18:27:19,744 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:27:19,744 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:27:19,858 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:27:19,955 | INFO | LoginPage | Login button clicked
+2026-05-07 18:27:19,956 | INFO | conftest | Login fixture completed
+2026-05-07 18:27:19,957 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:27:19,957 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:27:20,451 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:27:20,452 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:27:20,452 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:27:20,454 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:22,830 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:22,831 | INFO | conftest | Running tests locally
+2026-05-07 18:27:23,938 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:27:23,940 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:27:23,940 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:23,940 | INFO | NotesPage | Creating note | Title: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:23,940 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:27:24,124 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:24,528 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:24,529 | INFO | conftest | Running tests locally
+2026-05-07 18:27:27,914 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:28,168 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:28,169 | INFO | conftest | Running tests locally
+2026-05-07 18:27:30,160 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:27:31,978 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:31,979 | INFO | conftest | Running tests locally
+2026-05-07 18:27:33,468 | INFO | NotesPage | Entering title: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:33,468 | INFO | NotesPage | Typing 'DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816' into element: ('id', 'title')
+2026-05-07 18:27:33,588 | INFO | NotesPage | Entering description
+2026-05-07 18:27:33,589 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:27:33,662 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:27:33,756 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:27:33,791 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:34,196 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:27:34,196 | INFO | conftest | Running tests locally
+2026-05-07 18:27:35,017 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:35,518 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:36,406 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:36,907 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:37,787 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:38,287 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:39,032 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:39,533 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:40,314 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:40,815 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:41,521 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:42,021 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:50,407 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:27:53,876 | INFO | NotesPage | Note created successfully | Title: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:53,876 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:27:53,876 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:54,689 | INFO | NotesPage | Note found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:27:54,689 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:27:54,689 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:28:03,811 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:28:03,811 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:28:03,814 | INFO | test_api_to_ui_validation | Located Note ID: 69fc8c460fadc10297dbf4fd
+2026-05-07 18:28:03,814 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc8c460fadc10297dbf4fd
+2026-05-07 18:28:03,814 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8c460fadc10297dbf4fd
+2026-05-07 18:28:08,974 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:28:08,974 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:28:08,975 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:28:08,975 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:28:23,655 | INFO | NotesPage | Checking if note exists: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:28:24,715 | WARNING | NotesPage | Note NOT found: DELETE-45906a30-2cd3-4010-a3b1-cf0647ba8816
+2026-05-07 18:28:24,716 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:28:24,716 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:28:24,718 | INFO | conftest | Closing browser
+2026-05-07 18:28:27,009 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:28:31,103 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:28:31,103 | INFO | conftest | Running tests locally
+2026-05-07 18:28:33,831 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:28:42,544 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:28:42,544 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:28:42,644 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:28:42,778 | INFO | LoginPage | Login button clicked
+2026-05-07 18:28:42,778 | INFO | conftest | Login fixture completed
+2026-05-07 18:28:42,779 | INFO | NotesPage | Creating note | Title: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:42,780 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:28:45,465 | INFO | NotesPage | Entering title: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:45,466 | INFO | NotesPage | Typing 'Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a' into element: ('id', 'title')
+2026-05-07 18:28:45,580 | INFO | NotesPage | Entering description
+2026-05-07 18:28:45,580 | INFO | NotesPage | Typing 'This is automation testing' into element: ('id', 'description')
+2026-05-07 18:28:45,658 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:28:45,733 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:28:45,767 | INFO | NotesPage | Checking if note exists: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:49,457 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:28:51,473 | INFO | NotesPage | Note created successfully | Title: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:51,474 | INFO | NotesPage | Checking if note exists: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:52,671 | INFO | NotesPage | Note found: Automation-941519e3-6ef6-4aab-bbf9-986df6055a8a
+2026-05-07 18:28:52,672 | INFO | conftest | Closing browser
+2026-05-07 18:31:36,916 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:36,916 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:36,916 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:31:36,916 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:37,529 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:31:37,536 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:37,536 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:38,968 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:38,973 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:38,974 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:31:41,197 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:41,200 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:41,200 | INFO | NotesAPI | Payload -> {'title': 'API-9ceff47a-31d5-4a26-b304-534c58b075c1', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:31:42,170 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:31:42,175 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:46,167 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:31:46,173 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:46,173 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:47,125 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:31:47,134 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:47,134 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:49,526 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:49,531 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:31:51,212 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:51,216 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:51,217 | INFO | NotesAPI | Payload -> {'title': 'DELETE-6879ebe1-5c8e-486f-b29a-2f35cfa05147', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:31:51,516 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:31:51,518 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:51,518 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:54,159 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:31:54,160 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8d420fadc10297dbf73a
+2026-05-07 18:31:54,486 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:54,490 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:54,490 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:31:55,765 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:31:55,769 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:31:55,769 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:31:55,844 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:31:55,844 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:58,960 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:31:58,964 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:31:58,964 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:32:00,958 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:32:00,967 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:32:00,967 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:32:03,010 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:32:03,012 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:05,743 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:32:05,747 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:32:05,748 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:32:07,085 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:32:07,086 | INFO | conftest | Running tests locally
+2026-05-07 18:32:09,657 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:32:11,293 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:32:11,293 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:32:11,294 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:32:11,297 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:32:11,297 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:32:16,413 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:32:16,416 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:32:20,606 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:32:20,701 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:24,190 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:32:24,190 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:32:24,284 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:32:24,363 | INFO | LoginPage | Login button clicked
+2026-05-07 18:32:24,363 | INFO | conftest | Login fixture completed
+2026-05-07 18:32:24,364 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:32:24,364 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:32:24,741 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:32:24,741 | INFO | conftest | Running tests locally
+2026-05-07 18:32:29,606 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:29,608 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:32:29,610 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:32:29,610 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:29,610 | INFO | NotesPage | Creating note | Title: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:29,610 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:32:31,492 | INFO | NotesPage | Entering title: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:31,492 | INFO | NotesPage | Typing 'DELETE-509eab45-eb75-4882-8595-66597f5132c7' into element: ('id', 'title')
+2026-05-07 18:32:31,609 | INFO | NotesPage | Entering description
+2026-05-07 18:32:31,609 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:32:31,681 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:32:31,765 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:32:31,788 | INFO | NotesPage | Checking if note exists: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:32,505 | WARNING | NotesPage | Note NOT found: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:33,006 | INFO | NotesPage | Checking if note exists: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:33,689 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:32:33,690 | INFO | conftest | Running tests locally
+2026-05-07 18:32:33,818 | WARNING | NotesPage | Note NOT found: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:34,319 | INFO | NotesPage | Checking if note exists: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:38,524 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:40,053 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:32:41,950 | INFO | NotesPage | Note created successfully | Title: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:41,950 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:32:41,950 | INFO | NotesPage | Checking if note exists: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:42,562 | INFO | NotesPage | Note found: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:42,562 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:32:42,562 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:32:42,585 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:32:42,585 | INFO | conftest | Running tests locally
+2026-05-07 18:32:43,964 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:32:43,965 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:32:43,965 | INFO | test_api_to_ui_validation | Located Note ID: 69fc8d6b0fadc10297dbf79c
+2026-05-07 18:32:43,965 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc8d6b0fadc10297dbf79c
+2026-05-07 18:32:43,966 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8d6b0fadc10297dbf79c
+2026-05-07 18:32:47,343 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:49,435 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:32:49,435 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:32:49,435 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:32:49,435 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:32:51,424 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:32:51,424 | INFO | conftest | Running tests locally
+2026-05-07 18:32:56,447 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:32:57,993 | INFO | NotesPage | Checking if note exists: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:58,768 | WARNING | NotesPage | Note NOT found: DELETE-509eab45-eb75-4882-8595-66597f5132c7
+2026-05-07 18:32:58,768 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:32:58,768 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:32:58,770 | INFO | conftest | Closing browser
+2026-05-07 18:33:00,538 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:33:00,538 | INFO | conftest | Running tests locally
+2026-05-07 18:33:00,920 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:33:04,973 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:33:04,973 | INFO | conftest | Running tests locally
+2026-05-07 18:33:09,907 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:33:13,990 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:33:13,991 | INFO | conftest | Running tests locally
+2026-05-07 18:33:14,501 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:33:14,502 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:33:14,576 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:33:14,715 | INFO | LoginPage | Login button clicked
+2026-05-07 18:33:18,778 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:33:19,797 | INFO | conftest | Closing browser
+2026-05-07 18:33:21,920 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:33:22,872 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:33:22,873 | INFO | conftest | Running tests locally
+2026-05-07 18:33:25,268 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:33:25,990 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:33:25,990 | INFO | conftest | Running tests locally
+2026-05-07 18:33:38,904 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:33:38,904 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:33:38,972 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:33:39,045 | INFO | LoginPage | Login button clicked
+2026-05-07 18:33:39,045 | INFO | conftest | Login fixture completed
+2026-05-07 18:33:39,046 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:33:48,543 | INFO | NotesPage | Entering title: Negative-50acf6e3-6cfe-444b-ae18-043ceb4f59ec
+2026-05-07 18:33:48,544 | INFO | NotesPage | Typing 'Negative-50acf6e3-6cfe-444b-ae18-043ceb4f59ec' into element: ('id', 'title')
+2026-05-07 18:33:48,671 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:33:48,771 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:33:48,799 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:33:48,842 | INFO | conftest | Closing browser
+2026-05-07 18:36:25,263 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:25,264 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:25,265 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:25,265 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:36:25,265 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:25,265 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:28,234 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:36:28,241 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:28,241 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:31,833 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:31,835 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:31,835 | INFO | NotesAPI | Payload -> {'title': 'DELETE-5703e5b5-613f-434b-ab8b-a34b2dd88c74', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:36:31,839 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:31,842 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:31,842 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:36:34,717 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:34,720 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:34,720 | INFO | NotesAPI | Payload -> {'title': 'API-b30c5e4c-616b-4670-90b2-58177bd9b3f5', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:36:35,114 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:36:35,119 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:36,629 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:36,630 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8e5c0fadc10297dbf8f8
+2026-05-07 18:36:37,349 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:36:37,353 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:37,353 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:38,242 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:38,248 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:38,248 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:41,350 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:41,354 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:36:41,605 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:41,605 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:43,435 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:43,439 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:44,075 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:36:44,080 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:44,081 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:44,733 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:44,743 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:44,743 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:46,286 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:46,370 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:36:46,370 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:36:48,635 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:48,638 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:48,639 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:36:48,725 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:48,727 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:36:48,727 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:50,003 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:36:50,006 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:36:50,006 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:36:50,165 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:36:50,169 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:36:50,636 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:36:50,636 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:36:50,637 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:36:50,643 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:36:51,366 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:36:51,373 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:36:54,244 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:36:54,245 | INFO | conftest | Running tests locally
+2026-05-07 18:36:54,719 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:36:54,719 | INFO | conftest | Running tests locally
+2026-05-07 18:36:55,454 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:36:55,454 | INFO | conftest | Running tests locally
+2026-05-07 18:36:57,057 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:36:57,377 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:36:57,378 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:36:57,463 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:36:57,730 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:36:59,979 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:36:59,979 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:00,095 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:00,206 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:00,206 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:00,207 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:37:00,207 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:37:00,374 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:37:00,374 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:00,428 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:00,477 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:00,554 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:00,555 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:00,555 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:37:00,556 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:37:00,572 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:00,573 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:00,576 | INFO | NotesPage | Creating note | Title: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:00,576 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:03,113 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:37:03,115 | INFO | test_ui_to_api_validation | STARTING E2E TEST: UI -> API
+2026-05-07 18:37:03,115 | INFO | test_ui_to_api_validation | Creating note from UI | Title: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:03,116 | INFO | NotesPage | Creating note | Title: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:03,116 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:08,071 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:37:08,074 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:37:08,074 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:08,074 | INFO | NotesPage | Creating note | Title: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:08,074 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:08,927 | INFO | NotesPage | Entering title: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:08,928 | INFO | NotesPage | Typing 'E2E-ca374fca-7c30-4bb9-b386-36645d191158' into element: ('id', 'title')
+2026-05-07 18:37:09,059 | INFO | NotesPage | Entering description
+2026-05-07 18:37:09,060 | INFO | NotesPage | Typing 'Hybrid UI API Validation' into element: ('id', 'description')
+2026-05-07 18:37:09,143 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:37:09,242 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:09,293 | INFO | NotesPage | Checking if note exists: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:09,334 | INFO | NotesPage | Entering title: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:09,334 | INFO | NotesPage | Typing 'Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6' into element: ('id', 'title')
+2026-05-07 18:37:09,478 | INFO | NotesPage | Entering description
+2026-05-07 18:37:09,479 | INFO | NotesPage | Typing 'This is automation testing' into element: ('id', 'description')
+2026-05-07 18:37:09,583 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:37:09,658 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:09,668 | INFO | NotesPage | Entering title: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:09,668 | INFO | NotesPage | Typing 'DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1' into element: ('id', 'title')
+2026-05-07 18:37:09,699 | INFO | NotesPage | Checking if note exists: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:09,807 | INFO | NotesPage | Entering description
+2026-05-07 18:37:09,807 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:37:09,895 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:37:10,010 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:10,058 | INFO | NotesPage | Checking if note exists: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:13,182 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:37:13,594 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:37:13,710 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:37:14,300 | INFO | NotesPage | Note created successfully | Title: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:14,300 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:37:14,301 | INFO | NotesPage | Checking if note exists: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:14,724 | INFO | NotesPage | Note created successfully | Title: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:14,724 | INFO | test_ui_to_api_validation | Note creation completed
+2026-05-07 18:37:14,724 | INFO | NotesPage | Checking if note exists: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:14,834 | INFO | NotesPage | Note created successfully | Title: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:14,835 | INFO | NotesPage | Checking if note exists: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:15,363 | INFO | NotesPage | Note found: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:15,363 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:37:15,363 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:37:15,818 | INFO | NotesPage | Note found: E2E-ca374fca-7c30-4bb9-b386-36645d191158
+2026-05-07 18:37:15,818 | INFO | test_ui_to_api_validation | Note visible in UI successfully
+2026-05-07 18:37:15,818 | INFO | test_ui_to_api_validation | Calling GET /notes API
+2026-05-07 18:37:15,818 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:37:15,899 | INFO | NotesPage | Note found: Automation-9cd2c6a6-d89c-480c-9625-74e30657b3e6
+2026-05-07 18:37:15,900 | INFO | conftest | Closing browser
+2026-05-07 18:37:16,043 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:37:16,043 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:37:16,044 | INFO | test_api_to_ui_validation | Located Note ID: 69fc8e7e0fadc10297dbf933
+2026-05-07 18:37:16,044 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc8e7e0fadc10297dbf933
+2026-05-07 18:37:16,044 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8e7e0fadc10297dbf933
+2026-05-07 18:37:16,644 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:37:16,645 | INFO | test_ui_to_api_validation | API Response Status: 200
+2026-05-07 18:37:16,646 | INFO | test_ui_to_api_validation | API Response Time: 0.810372
+2026-05-07 18:37:16,647 | INFO | test_ui_to_api_validation | Total Notes Returned: 165
+2026-05-07 18:37:16,647 | INFO | test_ui_to_api_validation | Matched Note: {'id': '69fc8e7e0fadc10297dbf92b', 'title': 'E2E-ca374fca-7c30-4bb9-b386-36645d191158', 'description': 'Hybrid UI API Validation', 'category': 'Home', 'completed': False, 'created_at': '2026-05-07T13:07:10.116Z', 'updated_at': '2026-05-07T13:07:10.116Z', 'user_id': '69fb505d81124e02985b5b90'}
+2026-05-07 18:37:16,647 | INFO | test_ui_to_api_validation | E2E UI -> API validation PASSED
+2026-05-07 18:37:16,650 | INFO | conftest | Closing browser
+2026-05-07 18:37:16,800 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:37:16,800 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:37:16,800 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:37:16,800 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:37:18,056 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:18,190 | INFO | NotesPage | Checking if note exists: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:19,067 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:19,201 | WARNING | NotesPage | Note NOT found: DELETE-0c495bca-b0b4-4ec1-a67d-869397861ce1
+2026-05-07 18:37:19,201 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:37:19,201 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:37:19,205 | INFO | conftest | Closing browser
+2026-05-07 18:37:21,550 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:22,111 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:22,111 | INFO | conftest | Running tests locally
+2026-05-07 18:37:23,157 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:23,158 | INFO | conftest | Running tests locally
+2026-05-07 18:37:25,615 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:25,615 | INFO | conftest | Running tests locally
+2026-05-07 18:37:28,387 | INFO | LoginPage | Attempting login with email: wrong@test.com
+2026-05-07 18:37:28,387 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
+2026-05-07 18:37:28,438 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:37:28,480 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:37:28,603 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:28,905 | INFO | conftest | Closing browser
+2026-05-07 18:37:30,101 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:37:30,101 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:30,191 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:30,275 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:30,275 | INFO | LoginPage | Validating login success
+2026-05-07 18:37:31,020 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:31,065 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:37:31,065 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:31,175 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:31,268 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:31,268 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:31,269 | INFO | NotesPage | Creating note | Title: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:31,270 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:31,964 | INFO | conftest | Closing browser
+2026-05-07 18:37:34,133 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:35,101 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:35,101 | INFO | conftest | Running tests locally
+2026-05-07 18:37:37,595 | INFO | NotesPage | Entering title: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:37,595 | INFO | NotesPage | Typing 'Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c' into element: ('id', 'title')
+2026-05-07 18:37:37,695 | INFO | NotesPage | Entering description
+2026-05-07 18:37:37,695 | INFO | NotesPage | Typing 'DOM validation' into element: ('id', 'description')
+2026-05-07 18:37:37,754 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:37:37,855 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:37,890 | INFO | NotesPage | Checking if note exists: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:38,231 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:38,231 | INFO | conftest | Running tests locally
+2026-05-07 18:37:40,358 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:37:40,359 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:37:40,454 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:37:40,558 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:41,147 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:37:42,306 | INFO | NotesPage | Note created successfully | Title: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:42,307 | INFO | NotesPage | Checking if note exists: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:43,263 | INFO | NotesPage | Note found: Instant-c4b6e5d3-f949-4521-8844-414ab2458a6c
+2026-05-07 18:37:43,265 | INFO | conftest | Closing browser
+2026-05-07 18:37:43,895 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:37:43,896 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:37:43,964 | INFO | LoginPage | Typing '' into element: ('id', 'password')
+2026-05-07 18:37:44,065 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:45,542 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:45,611 | INFO | conftest | Closing browser
+2026-05-07 18:37:47,832 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:37:49,102 | INFO | conftest | Closing browser
+2026-05-07 18:37:49,635 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:49,635 | INFO | conftest | Running tests locally
+2026-05-07 18:37:51,924 | INFO | conftest | Selenium Grid not detected
+2026-05-07 18:37:51,924 | INFO | conftest | Running tests locally
+2026-05-07 18:37:52,492 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:37:54,723 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:37:55,227 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:37:55,227 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:55,351 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:55,492 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:55,492 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:55,493 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:56,354 | INFO | NotesPage | Entering description
+2026-05-07 18:37:56,355 | INFO | NotesPage | Typing 'Missing title' into element: ('id', 'description')
+2026-05-07 18:37:56,426 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:37:56,485 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:56,513 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:37:56,560 | INFO | conftest | Closing browser
+2026-05-07 18:37:57,168 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:37:57,169 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:37:57,281 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:37:57,373 | INFO | LoginPage | Login button clicked
+2026-05-07 18:37:57,373 | INFO | conftest | Login fixture completed
+2026-05-07 18:37:57,374 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:37:59,053 | INFO | NotesPage | Entering title: Negative-6172bb37-2660-470d-8d88-ddb3c649cd0e
+2026-05-07 18:37:59,053 | INFO | NotesPage | Typing 'Negative-6172bb37-2660-470d-8d88-ddb3c649cd0e' into element: ('id', 'title')
+2026-05-07 18:37:59,147 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:37:59,212 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:37:59,239 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:37:59,270 | INFO | conftest | Closing browser
+2026-05-07 18:43:02,804 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:02,805 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:02,807 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:02,807 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:43:02,809 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:02,809 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:02,810 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:02,810 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:03,780 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:43:03,786 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:03,787 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:06,553 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:06,557 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:06,561 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:06,565 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:06,565 | INFO | NotesAPI | Payload -> {'title': 'DELETE-326263ca-6787-4b06-b576-b5babf9a8507', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:43:10,151 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:10,163 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:10,171 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:43:10,435 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:10,440 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:10,441 | INFO | NotesAPI | Payload -> {'title': 'API-b7927c00-6850-45a6-9c43-86a20b64f915', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:43:11,197 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:11,198 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc8fe70fadc10297dbfb32
+2026-05-07 18:43:14,018 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:14,359 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:14,632 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:43:14,641 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:14,641 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:17,807 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:17,815 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:17,815 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:18,011 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:18,011 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:19,855 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:43:19,863 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:19,864 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:20,722 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:20,726 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:20,726 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:43:25,691 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:25,694 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:43:26,554 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:26,557 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:26,558 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:43:27,381 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:27,402 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:27,403 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:27,842 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:43:27,848 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:43:27,874 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:43:27,874 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:43:29,018 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:43:29,021 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:43:29,037 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:43:29,037 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:43:29,369 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:43:29,585 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:43:29,827 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:43:29,836 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:43:29,875 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:43:29,875 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:43:30,451 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:43:31,632 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:43:31,637 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:43:31,637 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:43:41,397 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:43:41,398 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:43:41,399 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:43:41,409 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:43:41,440 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:43:41,440 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:43:42,061 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:43:49,188 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:43:49,188 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:43:49,191 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:43:49,192 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:43:49,210 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:43:49,210 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:43:49,447 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:43:49,836 | INFO | LoginPage | Login button clicked
+2026-05-07 18:43:49,837 | INFO | conftest | Login fixture completed
+2026-05-07 18:43:49,839 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:49,839 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:49,840 | INFO | LoginPage | Login button clicked
+2026-05-07 18:43:49,841 | INFO | conftest | Login fixture completed
+2026-05-07 18:43:49,843 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:43:49,843 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:43:49,847 | INFO | LoginPage | Login button clicked
+2026-05-07 18:43:49,848 | INFO | conftest | Login fixture completed
+2026-05-07 18:43:49,850 | INFO | NotesPage | Creating note | Title: Automation-eb1998ff-05ad-4a82-8bf0-31f710b8604b
+2026-05-07 18:43:49,850 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:00,751 | INFO | conftest | Closing browser
+2026-05-07 18:44:00,840 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:44:00,852 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:44:00,852 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:44:03,587 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:44:03,590 | INFO | test_ui_to_api_validation | STARTING E2E TEST: UI -> API
+2026-05-07 18:44:03,591 | INFO | test_ui_to_api_validation | Creating note from UI | Title: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:03,591 | INFO | NotesPage | Creating note | Title: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:03,591 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:04,315 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:44:04,318 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:44:04,318 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:04,318 | INFO | NotesPage | Creating note | Title: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:04,319 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:04,352 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:44:04,352 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:44:04,563 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:44:05,019 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:05,019 | INFO | conftest | Login fixture completed
+2026-05-07 18:44:05,021 | INFO | NotesPage | Creating note | Title: Instant-6a6a9101-d30a-4e51-9889-b1397a096ab7
+2026-05-07 18:44:05,021 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:13,995 | INFO | NotesPage | Entering title: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:13,996 | INFO | NotesPage | Typing 'DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e' into element: ('id', 'title')
+2026-05-07 18:44:14,239 | INFO | NotesPage | Entering description
+2026-05-07 18:44:14,239 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:44:14,424 | INFO | NotesPage | Entering title: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:14,425 | INFO | NotesPage | Typing 'E2E-de362a36-66c7-4bc5-8119-548b0027a961' into element: ('id', 'title')
+2026-05-07 18:44:14,451 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:44:14,617 | INFO | NotesPage | Entering description
+2026-05-07 18:44:14,617 | INFO | NotesPage | Typing 'Hybrid UI API Validation' into element: ('id', 'description')
+2026-05-07 18:44:14,772 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:44:14,810 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:44:15,034 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:44:15,038 | INFO | NotesPage | Checking if note exists: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:15,303 | INFO | NotesPage | Checking if note exists: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:16,085 | INFO | conftest | Closing browser
+2026-05-07 18:44:16,170 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:44:16,192 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:44:16,192 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:44:17,338 | WARNING | NotesPage | Note NOT found: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:17,567 | WARNING | NotesPage | Note NOT found: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:17,838 | INFO | NotesPage | Checking if note exists: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:18,067 | INFO | NotesPage | Checking if note exists: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:21,302 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:44:21,302 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:44:21,503 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:44:21,900 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:25,151 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:44:25,152 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:44:27,030 | INFO | conftest | Closing browser
+2026-05-07 18:44:27,118 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:44:27,148 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:44:27,148 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:44:27,300 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:44:27,300 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:44:27,404 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:44:27,476 | INFO | LoginPage | Typing '' into element: ('id', 'password')
+2026-05-07 18:44:27,894 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:31,491 | INFO | NotesPage | Note created successfully | Title: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:31,491 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:44:31,492 | INFO | NotesPage | Checking if note exists: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:32,085 | INFO | NotesPage | Note created successfully | Title: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:32,086 | INFO | test_ui_to_api_validation | Note creation completed
+2026-05-07 18:44:32,086 | INFO | NotesPage | Checking if note exists: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:33,007 | INFO | conftest | Closing browser
+2026-05-07 18:44:33,090 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:44:33,127 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:44:33,127 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:44:33,411 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:44:33,459 | INFO | NotesPage | Note found: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:33,459 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:44:33,460 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:44:34,026 | INFO | NotesPage | Note found: E2E-de362a36-66c7-4bc5-8119-548b0027a961
+2026-05-07 18:44:34,026 | INFO | test_ui_to_api_validation | Note visible in UI successfully
+2026-05-07 18:44:34,026 | INFO | test_ui_to_api_validation | Calling GET /notes API
+2026-05-07 18:44:34,026 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:44:41,601 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:44:41,601 | INFO | test_ui_to_api_validation | API Response Status: 200
+2026-05-07 18:44:41,603 | INFO | test_ui_to_api_validation | API Response Time: 7.553419
+2026-05-07 18:44:41,837 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:44:41,837 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:44:41,839 | INFO | test_api_to_ui_validation | Located Note ID: 69fc902a0fadc10297dbfba1
+2026-05-07 18:44:41,839 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc902a0fadc10297dbfba1
+2026-05-07 18:44:41,839 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc902a0fadc10297dbfba1
+2026-05-07 18:44:42,072 | INFO | conftest | Closing browser
+2026-05-07 18:44:42,181 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:44:42,193 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:44:42,194 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:44:43,213 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:44:43,213 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:44:43,423 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:44:43,818 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:43,818 | INFO | conftest | Login fixture completed
+2026-05-07 18:44:43,820 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:45,102 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:44:45,102 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:44:45,102 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:44:45,102 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:44:48,411 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:44:48,411 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:44:48,630 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:44:49,093 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:49,093 | INFO | conftest | Login fixture completed
+2026-05-07 18:44:49,094 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:44:54,660 | INFO | conftest | Closing browser
+2026-05-07 18:44:57,453 | INFO | LoginPage | Attempting login with email: wrong@test.com
+2026-05-07 18:44:57,453 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
+2026-05-07 18:44:57,666 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:44:58,096 | INFO | LoginPage | Login button clicked
+2026-05-07 18:44:58,177 | INFO | NotesPage | Checking if note exists: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:44:58,210 | INFO | NotesPage | Entering title: Negative-554dfc4d-fb60-47bc-a11b-dc9efe94e58e
+2026-05-07 18:44:58,210 | INFO | NotesPage | Typing 'Negative-554dfc4d-fb60-47bc-a11b-dc9efe94e58e' into element: ('id', 'title')
+2026-05-07 18:44:58,439 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:44:58,716 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:44:58,955 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:44:59,077 | INFO | conftest | Closing browser
+2026-05-07 18:44:59,150 | INFO | conftest | Closing browser
+2026-05-07 18:45:00,093 | WARNING | NotesPage | Note NOT found: DELETE-7ccd38f8-5116-47b0-a623-38ec9e7dd45e
+2026-05-07 18:45:00,094 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:45:00,094 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:45:00,100 | INFO | conftest | Closing browser
+2026-05-07 18:45:00,195 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:45:00,225 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:45:00,226 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:45:07,693 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:45:07,694 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:45:07,898 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:45:08,300 | INFO | LoginPage | Login button clicked
+2026-05-07 18:45:08,301 | INFO | LoginPage | Validating login success
+2026-05-07 18:45:10,436 | INFO | conftest | Closing browser
+2026-05-07 18:51:05,975 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:05,975 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:05,976 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:05,976 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:05,976 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:05,977 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:05,978 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:05,978 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:05,978 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:51:05,978 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:07,655 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:51:07,660 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:07,661 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:12,451 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:12,456 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:12,459 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:12,465 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:51:14,770 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:14,781 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:14,785 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:14,785 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:51:14,787 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:14,787 | INFO | NotesAPI | Payload -> {'title': 'DELETE-697205d6-e921-4554-97c0-fb5484b7b5d2', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:51:16,851 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:16,855 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:16,855 | INFO | NotesAPI | Payload -> {'title': 'API-52ba7313-5282-44ba-afee-1a7c6ffc2432', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:51:17,338 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:51:17,346 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:17,346 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:17,419 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:51:17,427 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:17,476 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:17,476 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:18,053 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:51:20,144 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:20,144 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc91cf0fadc10297dbfee6
+2026-05-07 18:51:20,180 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:20,535 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:21,895 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:21,901 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:21,901 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:51:22,052 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:22,062 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:22,063 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:22,860 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:51:22,866 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:22,904 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:22,904 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:23,014 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:23,014 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:23,411 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:51:23,741 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:51:23,751 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:23,792 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:23,792 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:24,279 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:51:26,141 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:26,145 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:26,146 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:51:29,535 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:29,551 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:29,551 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:30,327 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:51:30,328 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:51:30,779 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:51:31,261 | INFO | LoginPage | Login button clicked
+2026-05-07 18:51:31,278 | INFO | conftest | Login fixture completed
+2026-05-07 18:51:31,279 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:31,279 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:31,657 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:51:31,665 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:31,693 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:31,693 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:40,932 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:40,936 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:51:40,936 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:51:41,568 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:41,569 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:51:41,570 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:41,570 | INFO | NotesPage | Creating note | Title: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:41,570 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:51:44,410 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:51:44,411 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:51:44,579 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:51:44,580 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:51:44,611 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:51:44,652 | INFO | NotesPage | Entering title: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:44,652 | INFO | NotesPage | Typing 'DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727' into element: ('id', 'title')
+2026-05-07 18:51:44,809 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:51:44,826 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:51:44,826 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:51:44,827 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:51:44,831 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:44,851 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:44,852 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:44,914 | INFO | NotesPage | Entering description
+2026-05-07 18:51:44,914 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:51:45,038 | INFO | LoginPage | Login button clicked
+2026-05-07 18:51:45,038 | INFO | conftest | Login fixture completed
+2026-05-07 18:51:45,039 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:51:45,039 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:51:45,142 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:51:45,254 | INFO | LoginPage | Login button clicked
+2026-05-07 18:51:45,254 | INFO | conftest | Login fixture completed
+2026-05-07 18:51:45,255 | INFO | NotesPage | Creating note | Title: Instant-db71e449-8adf-41c2-9077-c8230a7a6dd5
+2026-05-07 18:51:45,256 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:51:45,511 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:51:45,726 | INFO | NotesPage | Checking if note exists: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:48,244 | WARNING | NotesPage | Note NOT found: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:48,745 | INFO | NotesPage | Checking if note exists: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:50,791 | WARNING | NotesPage | Note NOT found: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:51,250 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:51:51,255 | INFO | test_ui_to_api_validation | STARTING E2E TEST: UI -> API
+2026-05-07 18:51:51,255 | INFO | test_ui_to_api_validation | Creating note from UI | Title: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:51:51,255 | INFO | NotesPage | Creating note | Title: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:51:51,256 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:51:51,291 | INFO | NotesPage | Checking if note exists: DELETE-9e24656b-086f-4fd8-a433-ff1eb6ee9727
+2026-05-07 18:51:52,732 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:51:52,732 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:51:52,952 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:51:53,370 | INFO | LoginPage | Login button clicked
+2026-05-07 18:51:53,370 | INFO | LoginPage | Validating login success
+2026-05-07 18:51:56,099 | INFO | conftest | Closing browser
+2026-05-07 18:51:56,117 | INFO | NotesPage | Entering title: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:51:56,117 | INFO | NotesPage | Typing 'E2E-7197c595-49b5-4a26-8607-0de6f258b7a7' into element: ('id', 'title')
+2026-05-07 18:51:56,185 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:51:56,196 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:51:56,196 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:51:56,368 | INFO | NotesPage | Entering description
+2026-05-07 18:51:56,368 | INFO | NotesPage | Typing 'Hybrid UI API Validation' into element: ('id', 'description')
+2026-05-07 18:51:56,582 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:51:56,835 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:51:57,089 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:51:59,271 | WARNING | NotesPage | Note NOT found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:51:59,772 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:00,876 | INFO | conftest | Closing browser
+2026-05-07 18:52:00,960 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:52:00,970 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:52:00,970 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:52:01,306 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:52:01,876 | WARNING | NotesPage | Note NOT found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:02,378 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:04,203 | WARNING | NotesPage | Note NOT found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:04,704 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:06,022 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:52:06,568 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:52:06,568 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:52:06,623 | WARNING | NotesPage | Note NOT found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:06,756 | INFO | LoginPage | Typing '' into element: ('id', 'password')
+2026-05-07 18:52:07,124 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:07,171 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:11,433 | INFO | conftest | Closing browser
+2026-05-07 18:52:11,527 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:52:11,538 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:52:11,538 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:52:11,812 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:52:12,319 | INFO | conftest | Closing browser
+2026-05-07 18:52:12,398 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:52:12,432 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:52:12,432 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:52:12,748 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:52:15,454 | INFO | LoginPage | Attempting login with email: wrong@test.com
+2026-05-07 18:52:15,455 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
+2026-05-07 18:52:15,685 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:52:16,136 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:16,719 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:52:16,720 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:52:16,938 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:52:17,336 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:17,336 | INFO | conftest | Login fixture completed
+2026-05-07 18:52:17,338 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:52:18,520 | INFO | conftest | Closing browser
+2026-05-07 18:52:20,207 | INFO | NotesPage | Note found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:20,207 | INFO | NotesPage | Note created successfully | Title: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:20,207 | INFO | test_ui_to_api_validation | Note creation completed
+2026-05-07 18:52:20,207 | INFO | NotesPage | Checking if note exists: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:21,782 | INFO | NotesPage | Note found: E2E-7197c595-49b5-4a26-8607-0de6f258b7a7
+2026-05-07 18:52:21,782 | INFO | test_ui_to_api_validation | Note visible in UI successfully
+2026-05-07 18:52:21,782 | INFO | test_ui_to_api_validation | Calling GET /notes API
+2026-05-07 18:52:21,782 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:52:26,417 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:52:26,417 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:52:26,663 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:52:27,023 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:27,023 | INFO | conftest | Login fixture completed
+2026-05-07 18:52:27,024 | INFO | NotesPage | Creating note | Title: Automation-47b25271-8b70-4db7-94b1-1e04eadcff30
+2026-05-07 18:52:27,024 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:52:28,154 | INFO | conftest | Closing browser
+2026-05-07 18:52:29,532 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:52:29,532 | INFO | test_ui_to_api_validation | API Response Status: 200
+2026-05-07 18:52:29,533 | INFO | test_ui_to_api_validation | API Response Time: 7.718389
+2026-05-07 18:52:29,685 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:52:29,686 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:52:29,717 | INFO | conftest | Closing browser
+2026-05-07 18:52:29,806 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:52:29,835 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:52:29,835 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:52:29,908 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:52:30,305 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:30,306 | INFO | conftest | Login fixture completed
+2026-05-07 18:52:30,311 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:52:37,828 | INFO | conftest | Closing browser
+2026-05-07 18:52:41,174 | INFO | conftest | Closing browser
+2026-05-07 18:52:43,367 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:52:43,368 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:52:43,541 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:52:43,923 | INFO | LoginPage | Login button clicked
+2026-05-07 18:52:49,044 | INFO | conftest | Closing browser
+2026-05-07 18:57:10,330 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:10,330 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:10,331 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:10,331 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:10,331 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:10,332 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:57:10,952 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:57:10,959 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:10,959 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:13,807 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:13,814 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:13,815 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:57:14,129 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:14,133 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:14,133 | INFO | NotesAPI | Payload -> {'title': 'DELETE-aacc08f6-c9f3-46f9-823c-5485a044657a', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:57:15,258 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:15,263 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:15,263 | INFO | NotesAPI | Payload -> {'title': 'API-60c05038-374c-49d8-bf3f-46e738798613', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:57:15,493 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:57:15,497 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:15,891 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:15,892 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc93340fadc10297dc0179
+2026-05-07 18:57:16,046 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:57:16,049 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:16,049 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:16,059 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:16,063 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:16,063 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:20,285 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:20,285 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:20,285 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:20,287 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:57:20,361 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:20,363 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:21,244 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:57:21,252 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:21,252 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:22,630 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:22,640 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:22,640 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:22,789 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:22,867 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:22,867 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:24,686 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:24,690 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:24,691 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:57:28,297 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:28,301 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:57:28,301 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:28,366 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:28,367 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:57:28,367 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:57:28,765 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:57:28,772 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:57:28,800 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:57:28,800 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:57:29,308 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:57:29,568 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:57:29,574 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:57:29,594 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:57:29,594 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:57:30,035 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:57:30,237 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:57:30,237 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:57:30,238 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:57:30,245 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:57:30,274 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:57:30,274 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:57:30,751 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:57:36,879 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:57:36,879 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:57:36,966 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:57:36,966 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:57:37,117 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:57:37,204 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:57:37,205 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:57:37,205 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:57:37,443 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:57:37,567 | INFO | LoginPage | Login button clicked
+2026-05-07 18:57:37,583 | INFO | conftest | Login fixture completed
+2026-05-07 18:57:37,584 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:37,584 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:37,637 | INFO | LoginPage | Login button clicked
+2026-05-07 18:57:37,638 | INFO | conftest | Login fixture completed
+2026-05-07 18:57:37,640 | INFO | NotesPage | Creating note | Title: Automation-2acd9157-b305-40c6-93e0-34459248b33b
+2026-05-07 18:57:37,640 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:57:37,865 | INFO | LoginPage | Login button clicked
+2026-05-07 18:57:37,865 | INFO | conftest | Login fixture completed
+2026-05-07 18:57:37,866 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:57:37,866 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:57:47,890 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:47,897 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:57:47,898 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:57:47,898 | INFO | NotesPage | Creating note | Title: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:57:47,898 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:57:48,456 | INFO | conftest | Closing browser
+2026-05-07 18:57:48,545 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:57:48,577 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:57:48,577 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:57:49,654 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:57:49,659 | INFO | test_ui_to_api_validation | STARTING E2E TEST: UI -> API
+2026-05-07 18:57:49,660 | INFO | test_ui_to_api_validation | Creating note from UI | Title: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:57:49,660 | INFO | NotesPage | Creating note | Title: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:57:49,660 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:57:53,037 | INFO | NotesPage | Entering title: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:57:53,037 | INFO | NotesPage | Typing 'DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec' into element: ('id', 'title')
+2026-05-07 18:57:53,260 | INFO | NotesPage | Entering description
+2026-05-07 18:57:53,261 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:57:53,442 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:57:53,450 | INFO | NotesPage | Entering title: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:57:53,450 | INFO | NotesPage | Typing 'E2E-9076c588-293f-4628-8eff-622bfc08b3e1' into element: ('id', 'title')
+2026-05-07 18:57:53,739 | INFO | NotesPage | Entering description
+2026-05-07 18:57:53,739 | INFO | NotesPage | Typing 'Hybrid UI API Validation' into element: ('id', 'description')
+2026-05-07 18:57:53,795 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:57:53,958 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:57:54,053 | INFO | NotesPage | Checking if note exists: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:57:54,193 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:57:54,448 | INFO | NotesPage | Checking if note exists: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:57:55,615 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:57:55,616 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:57:55,831 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:57:56,232 | INFO | LoginPage | Login button clicked
+2026-05-07 18:57:56,232 | INFO | LoginPage | Validating login success
+2026-05-07 18:57:59,293 | INFO | conftest | Closing browser
+2026-05-07 18:57:59,298 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:57:59,349 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:57:59,375 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:57:59,391 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:57:59,392 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:03,739 | INFO | NotesPage | Note created successfully | Title: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:58:03,739 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:58:03,740 | INFO | NotesPage | Checking if note exists: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:58:03,947 | INFO | NotesPage | Note created successfully | Title: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:58:03,948 | INFO | test_ui_to_api_validation | Note creation completed
+2026-05-07 18:58:03,948 | INFO | NotesPage | Checking if note exists: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:58:05,725 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:58:05,725 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:58:05,860 | INFO | NotesPage | Note found: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:58:05,860 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:58:05,860 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:05,894 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:58:06,019 | INFO | NotesPage | Note found: E2E-9076c588-293f-4628-8eff-622bfc08b3e1
+2026-05-07 18:58:06,019 | INFO | test_ui_to_api_validation | Note visible in UI successfully
+2026-05-07 18:58:06,020 | INFO | test_ui_to_api_validation | Calling GET /notes API
+2026-05-07 18:58:06,020 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:06,279 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:07,159 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:07,160 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:58:07,161 | INFO | test_api_to_ui_validation | Located Note ID: 69fc935b0fadc10297dc01c1
+2026-05-07 18:58:07,161 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc935b0fadc10297dc01c1
+2026-05-07 18:58:07,162 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc935b0fadc10297dc01c1
+2026-05-07 18:58:07,382 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:07,382 | INFO | test_ui_to_api_validation | API Response Status: 200
+2026-05-07 18:58:07,383 | INFO | test_ui_to_api_validation | API Response Time: 1.310223
+2026-05-07 18:58:07,383 | INFO | test_ui_to_api_validation | Total Notes Returned: 173
+2026-05-07 18:58:07,383 | INFO | test_ui_to_api_validation | Matched Note: {'id': '69fc935b0fadc10297dc01c3', 'title': 'E2E-9076c588-293f-4628-8eff-622bfc08b3e1', 'description': 'Hybrid UI API Validation', 'category': 'Home', 'completed': False, 'created_at': '2026-05-07T13:27:55.876Z', 'updated_at': '2026-05-07T13:27:55.876Z', 'user_id': '69fb505d81124e02985b5b90'}
+2026-05-07 18:58:07,383 | INFO | test_ui_to_api_validation | E2E UI -> API validation PASSED
+2026-05-07 18:58:07,385 | INFO | conftest | Closing browser
+2026-05-07 18:58:07,475 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:07,489 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:07,489 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:07,656 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:07,656 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:58:07,656 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:58:07,656 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:58:09,683 | INFO | NotesPage | Checking if note exists: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:58:10,543 | INFO | LoginPage | Attempting login with email: wrong@test.com
+2026-05-07 18:58:10,544 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
+2026-05-07 18:58:10,737 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:58:11,123 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:11,417 | INFO | conftest | Closing browser
+2026-05-07 18:58:11,495 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:11,506 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:11,507 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:11,592 | WARNING | NotesPage | Note NOT found: DELETE-2b5706f3-1de9-4349-8318-577f7ec875ec
+2026-05-07 18:58:11,592 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:58:11,592 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:58:11,595 | INFO | conftest | Closing browser
+2026-05-07 18:58:11,680 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:11,693 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:11,693 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:11,952 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:58:12,321 | INFO | conftest | Closing browser
+2026-05-07 18:58:12,403 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:12,416 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:12,416 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:12,669 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:58:17,222 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:58:17,222 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:58:17,230 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:58:17,230 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:58:17,233 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:58:17,233 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:58:17,460 | INFO | LoginPage | Typing '' into element: ('id', 'password')
+2026-05-07 18:58:17,487 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:58:17,873 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:17,942 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:17,943 | INFO | conftest | Login fixture completed
+2026-05-07 18:58:17,945 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:58:17,946 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:17,946 | INFO | conftest | Login fixture completed
+2026-05-07 18:58:17,948 | INFO | NotesPage | Creating note | Title: Instant-9336d38a-d577-4e29-92b7-ef3b7063d5b2
+2026-05-07 18:58:17,949 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:58:20,771 | INFO | conftest | Closing browser
+2026-05-07 18:58:22,888 | INFO | NotesPage | Entering description
+2026-05-07 18:58:22,888 | INFO | NotesPage | Typing 'Missing title' into element: ('id', 'description')
+2026-05-07 18:58:22,980 | INFO | conftest | Closing browser
+2026-05-07 18:58:23,066 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:23,076 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:23,076 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:23,086 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:58:23,300 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:58:23,331 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:58:23,551 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:58:23,664 | INFO | conftest | Closing browser
+2026-05-07 18:58:25,609 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:58:25,609 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:58:25,801 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:58:26,200 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:26,200 | INFO | conftest | Login fixture completed
+2026-05-07 18:58:26,201 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:58:27,546 | INFO | NotesPage | Entering title: Negative-c7f33fdd-e091-4655-82a6-9731949ac084
+2026-05-07 18:58:27,546 | INFO | NotesPage | Typing 'Negative-c7f33fdd-e091-4655-82a6-9731949ac084' into element: ('id', 'title')
+2026-05-07 18:58:27,765 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:58:28,045 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:58:28,302 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:58:28,407 | INFO | conftest | Closing browser
+2026-05-07 18:58:37,213 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:37,214 | INFO | AuthAPI | Payload -> {'email': '', 'password': ''}
+2026-05-07 18:58:37,214 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:37,215 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:37,745 | INFO | AuthAPI | Response Status -> 400
+2026-05-07 18:58:37,752 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:37,753 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:37,996 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:38,000 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:38,000 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+2026-05-07 18:58:38,318 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:38,322 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:38,322 | INFO | NotesAPI | Payload -> {'title': 'API-38fdfa84-a24d-48c3-b37e-4fd387250be8', 'description': 'API Automation Description', 'category': 'Home'}
+2026-05-07 18:58:38,530 | INFO | AuthAPI | Response Status -> 401
+2026-05-07 18:58:38,533 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:39,265 | INFO | NotesAPI | Response Status -> 401
+2026-05-07 18:58:39,271 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:39,272 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:39,331 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:39,333 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:39,333 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:40,130 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:40,134 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/123456789
+2026-05-07 18:58:40,923 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:40,923 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:58:40,927 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:40,928 | INFO | NotesAPI | Payload -> {'title': 'DELETE-82b335f5-893c-4dfb-8fce-a253e76ead59', 'description': 'Delete Description', 'category': 'Work'}
+2026-05-07 18:58:40,929 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:40,929 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:41,488 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:41,488 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc93890fadc10297dc0211
+2026-05-07 18:58:42,680 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:42,683 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:42,684 | INFO | NotesAPI | Payload -> {'title': '', 'description': 'Description', 'category': 'Home'}
+2026-05-07 18:58:43,016 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:43,016 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:44,126 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:58:44,132 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:44,132 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:44,471 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:44,481 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:44,481 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:45,893 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:45,894 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:45,895 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-07 18:58:48,533 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:48,536 | INFO | test_get_notes | Starting test_get_all_notes
+2026-05-07 18:58:48,537 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:48,604 | INFO | NotesAPI | Response Status -> 400
+2026-05-07 18:58:48,606 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:48,615 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:48,615 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:48,848 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:58:51,838 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:51,838 | INFO | test_get_notes | Response received: 200
+2026-05-07 18:58:51,839 | INFO | test_get_notes | test_get_all_notes PASSED
+2026-05-07 18:58:51,844 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:51,844 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:54,040 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:58:54,045 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:58:56,719 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:58:56,720 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:58:56,926 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:58:57,320 | INFO | LoginPage | Login button clicked
+2026-05-07 18:58:57,336 | INFO | conftest | Login fixture completed
+2026-05-07 18:58:57,337 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:58:57,337 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:58:57,580 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:58:57,665 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:58:57,674 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:58:57,675 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:58:57,936 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:59:02,049 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:59:02,056 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-07 18:59:02,057 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:02,057 | INFO | NotesPage | Creating note | Title: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:02,057 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:59:05,081 | INFO | NotesPage | Entering title: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:05,081 | INFO | NotesPage | Typing 'DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30' into element: ('id', 'title')
+2026-05-07 18:59:05,319 | INFO | NotesPage | Entering description
+2026-05-07 18:59:05,319 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-07 18:59:05,500 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:59:05,730 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:59:05,730 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:59:05,774 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:59:05,953 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:59:06,025 | INFO | NotesPage | Checking if note exists: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:06,333 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:06,333 | INFO | conftest | Login fixture completed
+2026-05-07 18:59:06,335 | INFO | NotesPage | Creating note | Title: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:06,335 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:59:10,288 | INFO | NotesPage | Entering title: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:10,288 | INFO | NotesPage | Typing 'Automation-ff91926a-02d7-4689-9f4c-b893860093fa' into element: ('id', 'title')
+2026-05-07 18:59:10,420 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:59:10,524 | INFO | NotesPage | Entering description
+2026-05-07 18:59:10,524 | INFO | NotesPage | Typing 'This is automation testing' into element: ('id', 'description')
+2026-05-07 18:59:10,710 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:59:10,899 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:59:11,159 | INFO | NotesPage | Checking if note exists: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:12,919 | WARNING | NotesPage | Note NOT found: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:13,420 | INFO | NotesPage | Checking if note exists: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:14,158 | INFO | NotesPage | Note created successfully | Title: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:14,159 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-07 18:59:14,159 | INFO | NotesPage | Checking if note exists: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:15,896 | INFO | NotesPage | Note found: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:15,897 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-07 18:59:15,897 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:59:16,870 | INFO | NotesPage | Note found: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:16,870 | INFO | NotesPage | Note created successfully | Title: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:16,870 | INFO | NotesPage | Checking if note exists: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:17,020 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:59:17,020 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-07 18:59:17,021 | INFO | test_api_to_ui_validation | Located Note ID: 69fc93a20fadc10297dc0244
+2026-05-07 18:59:17,021 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fc93a20fadc10297dc0244
+2026-05-07 18:59:17,021 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fc93a20fadc10297dc0244
+2026-05-07 18:59:17,506 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:59:17,506 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-07 18:59:17,506 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-07 18:59:17,506 | INFO | NotesPage | Refreshing browser page
+2026-05-07 18:59:18,396 | INFO | NotesPage | Note found: Automation-ff91926a-02d7-4689-9f4c-b893860093fa
+2026-05-07 18:59:18,397 | INFO | conftest | Closing browser
+2026-05-07 18:59:18,475 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:18,482 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:18,482 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:18,722 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:59:19,049 | INFO | NotesPage | Checking if note exists: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:20,817 | WARNING | NotesPage | Note NOT found: DELETE-d207a71b-7401-4468-a8ae-5137dfbdcc30
+2026-05-07 18:59:20,818 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-07 18:59:20,818 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-07 18:59:20,820 | INFO | conftest | Closing browser
+2026-05-07 18:59:20,908 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:20,921 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:20,922 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:20,968 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:59:20,969 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:59:21,181 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:59:21,182 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:59:21,588 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:21,588 | INFO | conftest | Login fixture completed
+2026-05-07 18:59:21,589 | INFO | NotesPage | Creating note | Title: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:21,589 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:59:25,515 | INFO | NotesPage | Entering title: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:25,515 | INFO | NotesPage | Typing 'Instant-cb2e394e-8f37-45f4-b33c-164096b71580' into element: ('id', 'title')
+2026-05-07 18:59:25,735 | INFO | NotesPage | Entering description
+2026-05-07 18:59:25,735 | INFO | NotesPage | Typing 'DOM validation' into element: ('id', 'description')
+2026-05-07 18:59:25,931 | INFO | NotesPage | Selecting category: Work
+2026-05-07 18:59:26,209 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:59:26,450 | INFO | NotesPage | Checking if note exists: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:27,670 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:59:27,670 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:59:27,846 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:59:28,184 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:28,184 | INFO | conftest | Login fixture completed
+2026-05-07 18:59:28,185 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-07 18:59:28,185 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-07 18:59:31,969 | INFO | AuthAPI | Response Status -> 200
+2026-05-07 18:59:31,974 | INFO | test_ui_to_api_validation | STARTING E2E TEST: UI -> API
+2026-05-07 18:59:31,974 | INFO | test_ui_to_api_validation | Creating note from UI | Title: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:31,974 | INFO | NotesPage | Creating note | Title: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:31,975 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:59:33,120 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:59:33,952 | INFO | NotesPage | Entering title: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:33,952 | INFO | NotesPage | Typing 'E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c' into element: ('id', 'title')
+2026-05-07 18:59:34,167 | INFO | NotesPage | Entering description
+2026-05-07 18:59:34,167 | INFO | NotesPage | Typing 'Hybrid UI API Validation' into element: ('id', 'description')
+2026-05-07 18:59:34,361 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:59:34,555 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:59:34,787 | INFO | NotesPage | Checking if note exists: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:35,908 | INFO | NotesPage | Note created successfully | Title: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:35,908 | INFO | NotesPage | Checking if note exists: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:37,029 | WARNING | NotesPage | Stale element detected. Retrying...
+2026-05-07 18:59:37,575 | INFO | NotesPage | Note found: Instant-cb2e394e-8f37-45f4-b33c-164096b71580
+2026-05-07 18:59:37,576 | INFO | conftest | Closing browser
+2026-05-07 18:59:37,710 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:37,731 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:37,731 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:38,613 | INFO | NotesPage | Note created successfully | Title: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:38,613 | INFO | test_ui_to_api_validation | Note creation completed
+2026-05-07 18:59:38,614 | INFO | NotesPage | Checking if note exists: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:40,083 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:59:40,083 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:59:40,239 | INFO | NotesPage | Note found: E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c
+2026-05-07 18:59:40,239 | INFO | test_ui_to_api_validation | Note visible in UI successfully
+2026-05-07 18:59:40,239 | INFO | test_ui_to_api_validation | Calling GET /notes API
+2026-05-07 18:59:40,239 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-07 18:59:40,278 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:59:40,653 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:40,653 | INFO | LoginPage | Validating login success
+2026-05-07 18:59:40,858 | INFO | NotesAPI | Response Status -> 200
+2026-05-07 18:59:40,859 | INFO | test_ui_to_api_validation | API Response Status: 200
+2026-05-07 18:59:40,859 | INFO | test_ui_to_api_validation | API Response Time: 0.567164
+2026-05-07 18:59:40,860 | INFO | test_ui_to_api_validation | Total Notes Returned: 176
+2026-05-07 18:59:40,860 | INFO | test_ui_to_api_validation | Matched Note: {'id': '69fc93bf0fadc10297dc027a', 'title': 'E2E-a6d1695e-b006-4099-9cf3-3e1011053a0c', 'description': 'Hybrid UI API Validation', 'category': 'Home', 'completed': False, 'created_at': '2026-05-07T13:29:35.635Z', 'updated_at': '2026-05-07T13:29:35.635Z', 'user_id': '69fb505d81124e02985b5b90'}
+2026-05-07 18:59:40,860 | INFO | test_ui_to_api_validation | E2E UI -> API validation PASSED
+2026-05-07 18:59:40,862 | INFO | conftest | Closing browser
+2026-05-07 18:59:40,946 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:40,951 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:40,951 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:41,014 | INFO | conftest | Closing browser
+2026-05-07 18:59:41,091 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:41,113 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:41,113 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:47,668 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:59:47,668 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:59:47,828 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:59:48,020 | INFO | LoginPage | Attempting login with email: wrong@test.com
+2026-05-07 18:59:48,021 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
+2026-05-07 18:59:48,223 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
+2026-05-07 18:59:48,242 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:48,592 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:48,945 | INFO | conftest | Closing browser
+2026-05-07 18:59:49,019 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:49,034 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:49,034 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:52,030 | INFO | LoginPage | Attempting login with email: 
+2026-05-07 18:59:52,030 | INFO | LoginPage | Typing '' into element: ('id', 'email')
+2026-05-07 18:59:52,234 | INFO | LoginPage | Typing '' into element: ('id', 'password')
+2026-05-07 18:59:52,651 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:53,337 | INFO | conftest | Closing browser
+2026-05-07 18:59:53,412 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:53,417 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:53,417 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:53,648 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:59:56,193 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 18:59:56,194 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 18:59:56,393 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 18:59:56,784 | INFO | LoginPage | Login button clicked
+2026-05-07 18:59:56,785 | INFO | conftest | Login fixture completed
+2026-05-07 18:59:56,786 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 18:59:57,781 | INFO | conftest | Closing browser
+2026-05-07 18:59:57,847 | INFO | NotesPage | Entering description
+2026-05-07 18:59:57,847 | INFO | NotesPage | Typing 'Missing title' into element: ('id', 'description')
+2026-05-07 18:59:57,859 | INFO | conftest | Launching Chrome browser
+2026-05-07 18:59:57,866 | INFO | conftest | Selenium Grid detected
+2026-05-07 18:59:57,866 | INFO | conftest | Running tests on Selenium Grid
+2026-05-07 18:59:58,051 | INFO | NotesPage | Selecting category: Home
+2026-05-07 18:59:58,111 | INFO | conftest | Performing login fixture setup
+2026-05-07 18:59:58,228 | INFO | NotesPage | Clicking Create button
+2026-05-07 18:59:58,488 | INFO | NotesPage | Fetching validation errors
+2026-05-07 18:59:58,585 | INFO | conftest | Closing browser
+2026-05-07 19:00:00,265 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-07 19:00:00,266 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-07 19:00:00,454 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-07 19:00:00,836 | INFO | LoginPage | Login button clicked
+2026-05-07 19:00:00,836 | INFO | conftest | Login fixture completed
+2026-05-07 19:00:00,837 | INFO | NotesPage | Clicking Add Note button
+2026-05-07 19:00:02,475 | INFO | NotesPage | Entering title: Negative-0f5f6f90-9a25-4042-881b-f0487fff4f34
+2026-05-07 19:00:02,475 | INFO | NotesPage | Typing 'Negative-0f5f6f90-9a25-4042-881b-f0487fff4f34' into element: ('id', 'title')
+2026-05-07 19:00:02,705 | INFO | NotesPage | Selecting category: Work
+2026-05-07 19:00:02,961 | INFO | NotesPage | Clicking Create button
+2026-05-07 19:00:03,193 | INFO | NotesPage | Fetching validation errors
+2026-05-07 19:00:03,291 | INFO | conftest | Closing browser
