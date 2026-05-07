@@ -4,7 +4,7 @@ pipeline {
 
     environment {
 
-        PYTHON = "python"
+        PYTHON = "python3"
 
         VENV = "venv"
 
@@ -18,9 +18,6 @@ pipeline {
 
     stages {
 
-        /*
-        1. Checkout Source Code
-        */
         stage('Checkout Source Code') {
 
             steps {
@@ -30,43 +27,32 @@ pipeline {
             }
         }
 
-        /*
-        2. Install Python and Dependencies
-        */
         stage('Install Python and Dependencies') {
 
             steps {
 
-                bat """
-                %PYTHON% -m venv %VENV%
-                """
+                sh '''
+                python3 -m venv venv
+                '''
 
-                bat """
-                %VENV%\\Scripts\\activate && pip install --upgrade pip
-                """
-
-                bat """
-                %VENV%\\Scripts\\activate && pip install -r requirements.txt
-                """
+                sh '''
+                . venv/bin/activate
+                pip install --upgrade pip
+                pip install -r requirements.txt
+                '''
             }
         }
 
-        /*
-        Start Selenium Grid
-        */
         stage('Start Selenium Grid') {
 
             steps {
 
-                bat """
-                docker compose -f docker/docker-compose.yml up -d --scale chrome=4
-                """
+                sh '''
+                docker compose -f docker/docker-compose.yml up -d --scale chrome=2
+                '''
             }
         }
 
-        /*
-        Wait For Selenium Grid
-        */
         stage('Wait For Selenium Grid') {
 
             steps {
@@ -77,8 +63,8 @@ pipeline {
 
                         script {
 
-                            def response = bat(
-                                script: 'curl http://localhost:4444/status',
+                            def response = sh(
+                                script: 'curl -s http://localhost:4444/status',
                                 returnStatus: true
                             )
 
@@ -89,29 +75,23 @@ pipeline {
             }
         }
 
-        /*
-        3. Parallel Test Execution
-        Using pytest-xdist
-        */
         stage('Run Parallel Tests') {
 
             steps {
 
-                bat """
-                set GRID=true && ^
-                %VENV%\\Scripts\\activate && ^
-                pytest -n 4 ^
-                --alluredir=allure-results ^
-                --html=report.html ^
+                sh '''
+                export GRID=true
+
+                . venv/bin/activate
+
+                pytest -n 2 \
+                --alluredir=allure-results \
+                --html=report.html \
                 --self-contained-html
-                """
+                '''
             }
         }
 
-        /*
-        4. Publish Reports
-        HTML + Allure
-        */
         stage('Publish Reports') {
 
             steps {
@@ -133,10 +113,6 @@ pipeline {
             }
         }
 
-        /*
-        5. Upload Artifacts
-        Screenshots, Logs, Reports
-        */
         stage('Upload Artifacts') {
 
             steps {
@@ -158,9 +134,9 @@ pipeline {
 
         always {
 
-            bat """
+            sh '''
             docker compose -f docker/docker-compose.yml down
-            """
+            '''
         }
 
         success {
