@@ -64,7 +64,7 @@ pipeline {
                         script {
 
                             def response = sh(
-                                script: 'curl -s http://localhost:4444/status',
+                                script: 'curl -s http://host.docker.internal:4444/status',
                                 returnStatus: true
                             )
 
