@@ -3,8 +3,10 @@ pipeline {
     agent any
 
     tools {
+
         allure 'allure'
     }
+
     environment {
 
         PYTHON = "python3"
@@ -40,7 +42,9 @@ pipeline {
 
                 sh '''
                 . venv/bin/activate
+
                 pip install --upgrade pip
+
                 pip install -r requirements.txt
                 '''
             }
@@ -83,6 +87,15 @@ pipeline {
             steps {
 
                 sh '''
+                rm -rf allure-results
+                rm -rf allure-report
+                rm -rf screenshots
+                rm -rf .pytest_cache
+                rm -f report.html
+
+                mkdir -p allure-results
+                mkdir -p screenshots
+
                 export GRID=true
 
                 . venv/bin/activate
