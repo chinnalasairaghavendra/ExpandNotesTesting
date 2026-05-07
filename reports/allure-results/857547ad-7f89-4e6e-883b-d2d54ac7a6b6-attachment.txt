@@ -1,0 +1,3 @@
+[32mINFO    [0m AuthAPI:api_client.py:36 POST Request -> https://practice.expandtesting.com/notes/api/users/login
+[32mINFO    [0m AuthAPI:api_client.py:40 Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
+[32mINFO    [0m AuthAPI:api_client.py:48 Response Status -> 401

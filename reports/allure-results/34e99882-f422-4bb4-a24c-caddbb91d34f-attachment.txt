@@ -1,0 +1,21 @@
+2026-05-06 23:38:19,624 | INFO | conftest | Launching Chrome browser
+2026-05-06 23:38:22,318 | INFO | conftest | Performing login fixture setup
+2026-05-06 23:38:24,694 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-06 23:38:24,694 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-06 23:38:24,797 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-06 23:38:24,896 | INFO | LoginPage | Clicking element: ('xpath', "//button[text()='Login']")
+2026-05-06 23:38:25,002 | INFO | LoginPage | Login button clicked
+2026-05-06 23:38:25,003 | INFO | conftest | Login fixture completed
+2026-05-06 23:38:25,005 | INFO | NotesPage | Creating note | Title: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:25,005 | INFO | NotesPage | Clicking element: ('xpath', "//button[text()='+ Add Note']")
+2026-05-06 23:38:26,417 | INFO | NotesPage | Typing 'Automation-42fc38b1-922a-4a52-8013-69130a893d07' into element: ('id', 'title')
+2026-05-06 23:38:26,542 | INFO | NotesPage | Typing 'This is automation testing' into element: ('id', 'description')
+2026-05-06 23:38:26,738 | INFO | NotesPage | Clicking element: ('xpath', "//button[contains(text(),'Create')]")
+2026-05-06 23:38:26,808 | INFO | NotesPage | Note created successfully | Title: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:26,809 | INFO | NotesPage | Checking if note exists: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:26,940 | WARNING | NotesPage | Note NOT found: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:27,441 | INFO | NotesPage | Checking if note exists: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:29,025 | INFO | NotesPage | Note found: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:29,025 | INFO | NotesPage | Checking if note exists: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:29,034 | INFO | NotesPage | Note found: Automation-42fc38b1-922a-4a52-8013-69130a893d07
+2026-05-06 23:38:29,036 | INFO | conftest | Closing browser

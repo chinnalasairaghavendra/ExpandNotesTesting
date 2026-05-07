@@ -1,0 +1,5 @@
+[32mINFO    [0m AuthAPI:api_client.py:36 POST Request -> https://practice.expandtesting.com/notes/api/users/login
+[32mINFO    [0m AuthAPI:api_client.py:40 Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+[32mINFO    [0m AuthAPI:api_client.py:48 Response Status -> 200
+[32mINFO    [0m NotesAPI:api_client.py:25 GET Request -> https://practice.expandtesting.com/notes/api/notes
+[32mINFO    [0m NotesAPI:api_client.py:30 Response Status -> 200

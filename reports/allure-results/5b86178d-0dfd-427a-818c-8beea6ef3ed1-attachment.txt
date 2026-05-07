@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesAPI:api_client.py:25 GET Request -> https://practice.expandtesting.com/notes/api/notes
+[32mINFO    [0m NotesAPI:api_client.py:30 Response Status -> 401

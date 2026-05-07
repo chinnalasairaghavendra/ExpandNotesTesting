@@ -1,0 +1,21 @@
+2026-05-06 23:38:31,240 | INFO | conftest | Launching Chrome browser
+2026-05-06 23:38:33,986 | INFO | conftest | Performing login fixture setup
+2026-05-06 23:38:36,437 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-06 23:38:36,438 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-06 23:38:36,615 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-06 23:38:36,663 | INFO | LoginPage | Clicking element: ('xpath', "//button[text()='Login']")
+2026-05-06 23:38:36,727 | INFO | LoginPage | Login button clicked
+2026-05-06 23:38:36,728 | INFO | conftest | Login fixture completed
+2026-05-06 23:38:36,731 | INFO | NotesPage | Creating note | Title: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:36,732 | INFO | NotesPage | Clicking element: ('xpath', "//button[text()='+ Add Note']")
+2026-05-06 23:38:37,899 | INFO | NotesPage | Typing 'Instant-560fb554-d213-42a6-aaf8-d209f24148a0' into element: ('id', 'title')
+2026-05-06 23:38:38,015 | INFO | NotesPage | Typing 'DOM validation' into element: ('id', 'description')
+2026-05-06 23:38:38,253 | INFO | NotesPage | Clicking element: ('xpath', "//button[contains(text(),'Create')]")
+2026-05-06 23:38:38,322 | INFO | NotesPage | Note created successfully | Title: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:38,322 | INFO | NotesPage | Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:38,456 | WARNING | NotesPage | Note NOT found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:38,957 | INFO | NotesPage | Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:40,801 | INFO | NotesPage | Note found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:40,802 | INFO | NotesPage | Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:40,826 | INFO | NotesPage | Note found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+2026-05-06 23:38:40,834 | INFO | conftest | Closing browser

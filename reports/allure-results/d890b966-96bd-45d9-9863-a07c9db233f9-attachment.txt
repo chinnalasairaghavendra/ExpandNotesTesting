@@ -1,0 +1,42 @@
+[32mINFO    [0m conftest:conftest.py:26 Launching Chrome browser
+[32mINFO    [0m conftest:conftest.py:49 Performing login fixture setup
+[32mINFO    [0m LoginPage:login_page.py:28 Attempting login with email: raghu1@gmail.com
+[32mINFO    [0m LoginPage:base_page.py:18 Typing 'raghu1@gmail.com' into element: ('id', 'email')
+[32mINFO    [0m LoginPage:base_page.py:18 Typing 'raghu1' into element: ('id', 'password')
+[32mINFO    [0m LoginPage:base_page.py:12 Clicking element: ('xpath', "//button[text()='Login']")
+[32mINFO    [0m LoginPage:login_page.py:34 Login button clicked
+[32mINFO    [0m conftest:conftest.py:53 Login fixture completed
+[32mINFO    [0m AuthAPI:api_client.py:36 POST Request -> https://practice.expandtesting.com/notes/api/users/login
+[32mINFO    [0m AuthAPI:api_client.py:40 Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+[32mINFO    [0m AuthAPI:api_client.py:48 Response Status -> 200
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:29 STARTING E2E TEST: API -> UI
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:49 Creating note via UI | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:notes_page.py:77 Creating note | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:base_page.py:12 Clicking element: ('xpath', "//button[text()='+ Add Note']")
+[32mINFO    [0m NotesPage:base_page.py:18 Typing 'DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576' into element: ('id', 'title')
+[32mINFO    [0m NotesPage:base_page.py:18 Typing 'Delete validation' into element: ('id', 'description')
+[32mINFO    [0m NotesPage:base_page.py:12 Clicking element: ('xpath', "//button[contains(text(),'Create')]")
+[32mINFO    [0m NotesPage:notes_page.py:85 Note created successfully | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[33mWARNING [0m NotesPage:notes_page.py:103 Note NOT found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:notes_page.py:99 Note found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:59 Note created successfully
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m NotesPage:notes_page.py:99 Note found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:67 Note created and visible in UI
+[32mINFO    [0m NotesAPI:api_client.py:25 GET Request -> https://practice.expandtesting.com/notes/api/notes
+[32mINFO    [0m NotesAPI:api_client.py:30 Response Status -> 200
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:75 GET Notes Status: 200
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:106 Located Note ID: 69fb838081124e02985b9e8c
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:120 Deleting note via API | ID: 69fb838081124e02985b9e8c
+[32mINFO    [0m NotesAPI:api_client.py:54 DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fb838081124e02985b9e8c
+[32mINFO    [0m NotesAPI:api_client.py:61 Response Status -> 200
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:126 Delete Status: 200
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:140 Refreshing UI page
+[32mINFO    [0m NotesPage:notes_page.py:45 Refreshing browser page
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[33mWARNING [0m NotesPage:notes_page.py:103 Note NOT found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:150 Deleted note removed from UI successfully
+[32mINFO    [0m test_api_to_ui_validation:test_api_to_ui_validation.py:154 E2E API -> UI validation PASSED
+[32mINFO    [0m conftest:conftest.py:43 Closing browser

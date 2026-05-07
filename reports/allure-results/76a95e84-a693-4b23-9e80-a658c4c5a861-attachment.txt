@@ -1,0 +1,21 @@
+[32mINFO    [0m conftest:conftest.py:26 Launching Chrome browser
+[32mINFO    [0m conftest:conftest.py:49 Performing login fixture setup
+[32mINFO    [0m LoginPage:login_page.py:28 Attempting login with email: raghu1@gmail.com
+[32mINFO    [0m LoginPage:base_page.py:18 Typing 'raghu1@gmail.com' into element: ('id', 'email')
+[32mINFO    [0m LoginPage:base_page.py:18 Typing 'raghu1' into element: ('id', 'password')
+[32mINFO    [0m LoginPage:base_page.py:12 Clicking element: ('xpath', "//button[text()='Login']")
+[32mINFO    [0m LoginPage:login_page.py:34 Login button clicked
+[32mINFO    [0m conftest:conftest.py:53 Login fixture completed
+[32mINFO    [0m NotesPage:notes_page.py:77 Creating note | Title: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:base_page.py:12 Clicking element: ('xpath', "//button[text()='+ Add Note']")
+[32mINFO    [0m NotesPage:base_page.py:18 Typing 'Instant-560fb554-d213-42a6-aaf8-d209f24148a0' into element: ('id', 'title')
+[32mINFO    [0m NotesPage:base_page.py:18 Typing 'DOM validation' into element: ('id', 'description')
+[32mINFO    [0m NotesPage:base_page.py:12 Clicking element: ('xpath', "//button[contains(text(),'Create')]")
+[32mINFO    [0m NotesPage:notes_page.py:85 Note created successfully | Title: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[33mWARNING [0m NotesPage:notes_page.py:103 Note NOT found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:notes_page.py:99 Note found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:notes_page.py:93 Checking if note exists: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m NotesPage:notes_page.py:99 Note found: Instant-560fb554-d213-42a6-aaf8-d209f24148a0
+[32mINFO    [0m conftest:conftest.py:43 Closing browser

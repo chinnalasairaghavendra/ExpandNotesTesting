@@ -1,0 +1,10 @@
+[32mINFO    [0m AuthAPI:api_client.py:36 POST Request -> https://practice.expandtesting.com/notes/api/users/login
+[32mINFO    [0m AuthAPI:api_client.py:40 Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+[32mINFO    [0m AuthAPI:api_client.py:48 Response Status -> 200
+[32mINFO    [0m NotesAPI:api_client.py:36 POST Request -> https://practice.expandtesting.com/notes/api/notes
+[32mINFO    [0m NotesAPI:api_client.py:40 Payload -> {'title': 'DELETE-1886f710-a175-4928-972b-4f5b47e9b699', 'description': 'Delete Description', 'category': 'Work'}
+[32mINFO    [0m NotesAPI:api_client.py:48 Response Status -> 200
+[32mINFO    [0m NotesAPI:api_client.py:54 DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fb837081124e02985b9e5f
+[32mINFO    [0m NotesAPI:api_client.py:61 Response Status -> 200
+[32mINFO    [0m NotesAPI:api_client.py:25 GET Request -> https://practice.expandtesting.com/notes/api/notes
+[32mINFO    [0m NotesAPI:api_client.py:30 Response Status -> 200

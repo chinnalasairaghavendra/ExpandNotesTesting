@@ -1,0 +1,6 @@
+2026-05-06 23:37:48,880 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-06 23:37:48,880 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-06 23:37:49,425 | INFO | AuthAPI | Response Status -> 200
+2026-05-06 23:37:49,428 | INFO | NotesAPI | POST Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-06 23:37:49,428 | INFO | NotesAPI | Payload -> {'title': 'Title', 'description': '', 'category': 'Home'}
+2026-05-06 23:37:49,897 | INFO | NotesAPI | Response Status -> 400

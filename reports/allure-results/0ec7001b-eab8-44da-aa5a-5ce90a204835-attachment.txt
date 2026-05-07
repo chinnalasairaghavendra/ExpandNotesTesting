@@ -1,0 +1,42 @@
+2026-05-06 23:37:49,902 | INFO | conftest | Launching Chrome browser
+2026-05-06 23:37:52,705 | INFO | conftest | Performing login fixture setup
+2026-05-06 23:37:55,528 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
+2026-05-06 23:37:55,528 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
+2026-05-06 23:37:55,633 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
+2026-05-06 23:37:55,699 | INFO | LoginPage | Clicking element: ('xpath', "//button[text()='Login']")
+2026-05-06 23:37:55,810 | INFO | LoginPage | Login button clicked
+2026-05-06 23:37:55,811 | INFO | conftest | Login fixture completed
+2026-05-06 23:37:55,813 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
+2026-05-06 23:37:55,813 | INFO | AuthAPI | Payload -> {'email': 'raghu1@gmail.com', 'password': 'raghu1'}
+2026-05-06 23:37:57,012 | INFO | AuthAPI | Response Status -> 200
+2026-05-06 23:37:57,017 | INFO | test_api_to_ui_validation | STARTING E2E TEST: API -> UI
+2026-05-06 23:37:57,018 | INFO | test_api_to_ui_validation | Creating note via UI | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:37:57,018 | INFO | NotesPage | Creating note | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:37:57,019 | INFO | NotesPage | Clicking element: ('xpath', "//button[text()='+ Add Note']")
+2026-05-06 23:37:57,379 | INFO | NotesPage | Typing 'DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576' into element: ('id', 'title')
+2026-05-06 23:37:57,482 | INFO | NotesPage | Typing 'Delete validation' into element: ('id', 'description')
+2026-05-06 23:37:57,705 | INFO | NotesPage | Clicking element: ('xpath', "//button[contains(text(),'Create')]")
+2026-05-06 23:37:57,758 | INFO | NotesPage | Note created successfully | Title: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:37:57,758 | INFO | NotesPage | Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:37:57,997 | WARNING | NotesPage | Note NOT found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:37:58,498 | INFO | NotesPage | Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:00,133 | INFO | NotesPage | Note found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:00,133 | INFO | test_api_to_ui_validation | Note created successfully
+2026-05-06 23:38:00,133 | INFO | NotesPage | Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:00,145 | INFO | NotesPage | Note found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:00,145 | INFO | test_api_to_ui_validation | Note created and visible in UI
+2026-05-06 23:38:00,146 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
+2026-05-06 23:38:01,250 | INFO | NotesAPI | Response Status -> 200
+2026-05-06 23:38:01,251 | INFO | test_api_to_ui_validation | GET Notes Status: 200
+2026-05-06 23:38:01,253 | INFO | test_api_to_ui_validation | Located Note ID: 69fb838081124e02985b9e8c
+2026-05-06 23:38:01,256 | INFO | test_api_to_ui_validation | Deleting note via API | ID: 69fb838081124e02985b9e8c
+2026-05-06 23:38:01,256 | INFO | NotesAPI | DELETE Request -> https://practice.expandtesting.com/notes/api/notes/69fb838081124e02985b9e8c
+2026-05-06 23:38:02,347 | INFO | NotesAPI | Response Status -> 200
+2026-05-06 23:38:02,348 | INFO | test_api_to_ui_validation | Delete Status: 200
+2026-05-06 23:38:02,350 | INFO | test_api_to_ui_validation | Refreshing UI page
+2026-05-06 23:38:02,350 | INFO | NotesPage | Refreshing browser page
+2026-05-06 23:38:04,264 | INFO | NotesPage | Checking if note exists: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:04,382 | WARNING | NotesPage | Note NOT found: DELETE-a4ca9e10-adf2-4943-a8d9-d89b4f2bb576
+2026-05-06 23:38:04,382 | INFO | test_api_to_ui_validation | Deleted note removed from UI successfully
+2026-05-06 23:38:04,382 | INFO | test_api_to_ui_validation | E2E API -> UI validation PASSED
+2026-05-06 23:38:04,387 | INFO | conftest | Closing browser
