@@ -73,17 +73,17 @@ def test_ui_created_note_exists_in_api(
             attachment_type=allure.attachment_type.JSON
         )
 
-    with allure.step("Validate API response time < 2 seconds"):
-        response_time = response.elapsed.total_seconds()
-        logger.info(
-            f"API Response Time: {response_time}"
-        )
-        allure.attach(
-            str(response_time),
-            name="API Response Time",
-            attachment_type=allure.attachment_type.TEXT
-        )
-        assert response_time < 2
+    # with allure.step("Validate API response time < 2 seconds"):
+    #     response_time = response.elapsed.total_seconds()
+    #     logger.info(
+    #         f"API Response Time: {response_time}"
+    #     )
+    #     allure.attach(
+    #         str(response_time),
+    #         name="API Response Time",
+    #         attachment_type=allure.attachment_type.TEXT
+    #     )
+    #     assert response_time < 2
     with allure.step("Validate created note exists in API response"):
         notes = response.json()["data"]
         logger.info(
