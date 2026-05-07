@@ -20,7 +20,10 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        /*
+        1. Checkout Source Code
+        */
+        stage('Checkout Source Code') {
 
             steps {
 
@@ -29,27 +32,30 @@ pipeline {
             }
         }
 
-        stage('Create Virtual Environment') {
+        /*
+        2. Install Python and Dependencies
+        */
+        stage('Install Python and Dependencies') {
 
             steps {
 
                 bat """
                 %PYTHON% -m venv %VENV%
                 """
-            }
-        }
-
-        stage('Install Dependencies') {
-
-            steps {
 
                 bat """
                 %VENV%\\Scripts\\activate && pip install --upgrade pip
+                """
+
+                bat """
                 %VENV%\\Scripts\\activate && pip install -r requirements.txt
                 """
             }
         }
 
+        /*
+        Start Selenium Grid
+        */
         stage('Start Selenium Grid') {
 
             steps {
@@ -60,6 +66,9 @@ pipeline {
             }
         }
 
+        /*
+        Wait For Selenium Grid
+        */
         stage('Wait For Selenium Grid') {
 
             steps {
@@ -82,26 +91,66 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
+        /*
+        3. Parallel Test Execution
+        Using pytest-xdist
+        */
+        stage('Run Parallel Tests') {
 
             steps {
 
                 bat """
                 set GRID=true && ^
                 %VENV%\\Scripts\\activate && ^
-                pytest -n 4 --alluredir=allure-results
+                pytest -n 4 ^
+                --alluredir=allure-results ^
+                --html=report.html ^
+                --self-contained-html
                 """
             }
         }
 
-        stage('Generate Allure Report') {
+        /*
+        4. Publish Reports
+        HTML + Allure
+        */
+        stage('Publish Reports') {
 
             steps {
+
+                publishHTML([
+                    allowMissing: true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: '.',
+                    reportFiles: 'report.html',
+                    reportName: 'Pytest HTML Report'
+                ])
 
                 allure(
                     includeProperties: false,
                     jdk: '',
                     results: [[path: 'allure-results']]
+                )
+            }
+        }
+
+        /*
+        5. Upload Artifacts
+        Screenshots, Logs, Reports
+        */
+        stage('Upload Artifacts') {
+
+            steps {
+
+                archiveArtifacts(
+                    artifacts: '''
+                        screenshots/*.png,
+                        logs/*.log,
+                        allure-results/**/*,
+                        report.html
+                    ''',
+                    allowEmptyArchive: true
                 )
             }
         }
@@ -111,11 +160,6 @@ pipeline {
 
         always {
 
-            archiveArtifacts(
-                artifacts: 'screenshots/*.png',
-                allowEmptyArchive: true
-            )
-
             bat """
             docker compose -f docker/docker-compose.yml down
             """
@@ -123,12 +167,12 @@ pipeline {
 
         success {
 
-            echo 'Tests passed successfully!'
+            echo 'Pipeline completed successfully!'
         }
 
         failure {
 
-            echo 'Tests failed!'
+            echo 'Pipeline execution failed!'
         }
     }
 }
