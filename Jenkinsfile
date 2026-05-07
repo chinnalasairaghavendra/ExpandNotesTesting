@@ -48,7 +48,7 @@ pipeline {
             steps {
 
                 sh '''
-                docker compose -f docker/docker-compose.yml up -d --scale chrome=2
+                docker-compose -f docker/docker-compose.yml up -d --scale chrome=2
                 '''
             }
         }
@@ -135,7 +135,7 @@ pipeline {
         always {
 
             sh '''
-            docker compose -f docker/docker-compose.yml down
+            docker-compose -f docker/docker-compose.yml down
             '''
         }
 
