@@ -2,6 +2,9 @@ pipeline {
 
     agent any
 
+    tools {
+        allure 'allure'
+    }
     environment {
 
         PYTHON = "python3"
