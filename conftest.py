@@ -110,14 +110,22 @@ def driver():
         "--log-level=3"
     )
 
-    # Auto-detect Selenium Grid
+    # Detect execution environment
+    inside_jenkins = os.path.exists(
+        "/.dockerenv"
+    )
+
+    grid_url = (
+        "http://host.docker.internal:4444"
+    )
+
     use_grid = False
 
     try:
 
         response = requests.get(
-            "http://localhost:4444/status",
-            timeout=3
+            f"{grid_url}/status",
+            timeout=5
         )
 
         if response.status_code == 200:
@@ -128,13 +136,11 @@ def driver():
                 "Selenium Grid detected"
             )
 
-    except Exception:
+    except Exception as e:
 
         logger.info(
-            "Selenium Grid not detected"
+            f"Selenium Grid not detected: {e}"
         )
-
-        use_grid = False
 
     # GRID MODE
     if use_grid:
@@ -148,7 +154,7 @@ def driver():
         )
 
         driver = webdriver.Remote(
-            command_executor="http://localhost:4444",
+            command_executor=grid_url,
             options=options
         )
 
