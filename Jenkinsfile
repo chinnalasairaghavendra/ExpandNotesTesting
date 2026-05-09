@@ -14,6 +14,10 @@ pipeline {
         VENV = "venv"
 
         GRID = "true"
+
+        LONGCAT_API_KEY = credentials(
+            'LONGCAT_API_KEY'
+        )
     }
 
     options {
@@ -50,6 +54,18 @@ pipeline {
             }
         }
 
+        stage('Create Environment File') {
+
+            steps {
+
+                sh '''
+                cat > .env <<EOF
+LONGCAT_API_KEY=$LONGCAT_API_KEY
+EOF
+                '''
+            }
+        }
+
         stage('Start Selenium Grid') {
 
             steps {
@@ -64,14 +80,21 @@ pipeline {
 
             steps {
 
-                timeout(time: 2, unit: 'MINUTES') {
+                timeout(
+                    time: 2,
+                    unit: 'MINUTES'
+                ) {
 
                     waitUntil {
 
                         script {
 
                             def response = sh(
-                                script: 'curl -s http://host.docker.internal:4444/status',
+
+                                script: '''
+                                curl -s http://host.docker.internal:4444/status
+                                ''',
+
                                 returnStatus: true
                             )
 
@@ -113,17 +136,26 @@ pipeline {
             steps {
 
                 publishHTML([
+
                     allowMissing: true,
+
                     alwaysLinkToLastBuild: true,
+
                     keepAll: true,
+
                     reportDir: '.',
+
                     reportFiles: 'report.html',
+
                     reportName: 'Pytest HTML Report'
                 ])
 
                 allure(
+
                     includeProperties: false,
+
                     jdk: '',
+
                     results: [[path: 'allure-results']]
                 )
             }
@@ -134,12 +166,14 @@ pipeline {
             steps {
 
                 archiveArtifacts(
+
                     artifacts: '''
                         screenshots/*.png,
                         logs/*.log,
                         allure-results/**/*,
                         report.html
                     ''',
+
                     allowEmptyArchive: true
                 )
             }
