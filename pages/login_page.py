@@ -1,7 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
+from ai.self_healing import (
+                AILocatorHealer
+            )
 from pages.base_page import BasePage
 
 
@@ -22,7 +24,39 @@ class LoginPage(BasePage):
         self.type(self.PASSWORD_INPUT, password)
 
     def click_login(self):
-        self.click(self.LOGIN_BUTTON)
+
+        try:
+
+            self.click(
+                self.LOGIN_BUTTON
+            )
+
+        except Exception as e:
+
+            self.logger.warning(
+                "Primary locator failed. "
+                "Trying AI self-healing."
+            )
+            healed_locator = (
+                AILocatorHealer.heal_locator(
+
+                    str(self.LOGIN_BUTTON),
+
+                    self.driver.page_source
+                )
+            )
+
+            self.logger.info(
+                f"AI generated locator: "
+                f"{healed_locator}"
+            )
+
+            button = self.driver.find_element(
+                By.XPATH,
+                healed_locator
+            )
+
+            button.click()
 
     def login(self, email, password):
         self.logger.info(
