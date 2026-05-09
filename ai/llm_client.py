@@ -1,4 +1,5 @@
 import os
+import time
 
 from openai import OpenAI
 
@@ -17,28 +18,50 @@ class LLMClient:
                 "LONGCAT_API_KEY"
             ),
 
-            base_url="https://api.longcat.chat/openai/v1"
+            base_url="https://api.longcat.chat/openai/v1",
+
+            timeout=60
         )
 
     def ask(self, prompt):
 
-        response = self.client.chat.completions.create(
+        retries = 3
 
-            model="longcat-flash-chat",
+        for attempt in range(retries):
 
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
+            try:
 
-            temperature=0.3
-        )
+                response = (
+                    self.client.chat.completions.create(
 
-        return (
-            response
-            .choices[0]
-            .message
-            .content
+                        model="longcat-flash-chat",
+
+                        messages=[
+                            {
+                                "role": "user",
+                                "content": prompt
+                            }
+                        ],
+
+                        temperature=0.3
+                    )
+                )
+
+                return (
+                    response
+                    .choices[0]
+                    .message
+                    .content
+                )
+
+            except Exception as e:
+
+                print(
+                    f"LLM Retry {attempt + 1}: {e}"
+                )
+
+                time.sleep(2)
+
+        raise Exception(
+            "LongCat API failed after retries"
         )
