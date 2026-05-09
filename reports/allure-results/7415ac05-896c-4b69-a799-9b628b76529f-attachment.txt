@@ -1,7 +1,0 @@
-2026-05-06 23:38:50,986 | INFO | conftest | Launching Chrome browser
-2026-05-06 23:38:56,472 | INFO | LoginPage | Attempting login with email: wrong@test.com
-2026-05-06 23:38:56,472 | INFO | LoginPage | Typing 'wrong@test.com' into element: ('id', 'email')
-2026-05-06 23:38:56,573 | INFO | LoginPage | Typing 'Password123' into element: ('id', 'password')
-2026-05-06 23:38:56,665 | INFO | LoginPage | Clicking element: ('xpath', "//button[text()='Login']")
-2026-05-06 23:38:56,798 | INFO | LoginPage | Login button clicked
-2026-05-06 23:38:57,377 | INFO | conftest | Closing browser

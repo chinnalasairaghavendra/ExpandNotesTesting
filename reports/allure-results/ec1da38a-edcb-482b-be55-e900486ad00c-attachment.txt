@@ -1,7 +1,0 @@
-[32mINFO    [0m conftest:conftest.py:26 Launching Chrome browser
-[32mINFO    [0m LoginPage:login_page.py:28 Attempting login with email: 
-[32mINFO    [0m LoginPage:base_page.py:18 Typing '' into element: ('id', 'email')
-[32mINFO    [0m LoginPage:base_page.py:18 Typing 'Password123' into element: ('id', 'password')
-[32mINFO    [0m LoginPage:base_page.py:12 Clicking element: ('xpath', "//button[text()='Login']")
-[32mINFO    [0m LoginPage:login_page.py:34 Login button clicked
-[32mINFO    [0m conftest:conftest.py:43 Closing browser

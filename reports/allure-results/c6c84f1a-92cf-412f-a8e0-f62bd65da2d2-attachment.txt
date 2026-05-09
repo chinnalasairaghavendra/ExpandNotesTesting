@@ -1,3 +1,0 @@
-2026-05-06 23:37:38,667 | INFO | AuthAPI | POST Request -> https://practice.expandtesting.com/notes/api/users/login
-2026-05-06 23:37:38,667 | INFO | AuthAPI | Payload -> {'email': 'wrong@test.com', 'password': 'wrongpass'}
-2026-05-06 23:37:39,382 | INFO | AuthAPI | Response Status -> 401

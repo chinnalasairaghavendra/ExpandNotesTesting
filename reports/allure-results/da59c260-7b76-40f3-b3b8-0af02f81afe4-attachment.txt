@@ -1,2 +1,0 @@
-2026-05-06 23:37:46,324 | INFO | NotesAPI | GET Request -> https://practice.expandtesting.com/notes/api/notes
-2026-05-06 23:37:46,792 | INFO | NotesAPI | Response Status -> 401

@@ -1,8 +1,0 @@
-2026-05-06 23:38:43,042 | INFO | conftest | Launching Chrome browser
-2026-05-06 23:38:47,994 | INFO | LoginPage | Attempting login with email: raghu1@gmail.com
-2026-05-06 23:38:47,994 | INFO | LoginPage | Typing 'raghu1@gmail.com' into element: ('id', 'email')
-2026-05-06 23:38:48,097 | INFO | LoginPage | Typing 'raghu1' into element: ('id', 'password')
-2026-05-06 23:38:48,142 | INFO | LoginPage | Clicking element: ('xpath', "//button[text()='Login']")
-2026-05-06 23:38:48,230 | INFO | LoginPage | Login button clicked
-2026-05-06 23:38:48,230 | INFO | LoginPage | Validating login success
-2026-05-06 23:38:48,804 | INFO | conftest | Closing browser
