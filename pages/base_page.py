@@ -14,6 +14,10 @@ from ai.retry_agent import (
     RetryAgent
 )
 
+from ai.intelligent_waits import (
+    IntelligentWaits
+)
+
 
 class BasePage:
 
@@ -33,11 +37,10 @@ class BasePage:
                 f"Clicking element: {locator}"
             )
 
-            element = WebDriverWait(
-                self.driver,
-                10
-            ).until(
-                EC.element_to_be_clickable(
+            element = (
+                IntelligentWaits
+                .wait_for_clickable(
+                    self.driver,
                     locator
                 )
             )
@@ -64,11 +67,10 @@ class BasePage:
                 f"into element: {locator}"
             )
 
-            element = WebDriverWait(
-                self.driver,
-                10
-            ).until(
-                EC.visibility_of_element_located(
+            element = (
+                IntelligentWaits
+                .wait_for_visible(
+                    self.driver,
                     locator
                 )
             )
@@ -85,11 +87,10 @@ class BasePage:
             f"Getting text from element: {locator}"
         )
 
-        return WebDriverWait(
-            self.driver,
-            10
-        ).until(
-            EC.visibility_of_element_located(
+        return (
+            IntelligentWaits
+            .wait_for_visible(
+                self.driver,
                 locator
-            )
-        ).text
+            ).text
+        )
