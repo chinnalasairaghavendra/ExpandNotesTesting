@@ -1,16 +1,55 @@
-############################
-# Virtual environments
-############################
+# Virtual Environment
 venv/
 .venv/
-env/
-ENV/
 
-############################
-# PyTest
-############################
+# Python Cache
+__pycache__/
+*.py[cod]
+tests/api/__pycache__/
+tests/e2e/__pycache__/
+tests/ui/__pycache__/
+# Pytest Cache
 .pytest_cache/
-.cache/
 
+# Allure Reports
+allure-results/
+allure-report/
+
+# HTML Reports
+report.html
+
+# Screenshots
+screenshots/
+
+# Logs
+logs/
+
+# Environment Variables
+.env
+
+# Config Files
 config/config.yaml
-screenshots
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Coverage Reports
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.log
+
+# Selenium Drivers
+chromedriver*
+geckodriver*
+
+# Build Artifacts
+dist/
+build/

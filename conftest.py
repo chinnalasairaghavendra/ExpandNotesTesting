@@ -18,6 +18,9 @@ from api.notes_api import NotesAPI
 
 from utils.logger import get_logger
 
+from ai.failure_analyzer import (
+    FailureAnalyzer
+)
 
 logger = get_logger("conftest")
 
@@ -70,6 +73,7 @@ def driver():
     options.add_argument(
         "--disable-extensions"
     )
+
     options.add_argument(
         "--window-size=1920,1080"
     )
@@ -110,17 +114,27 @@ def driver():
         "--log-level=3"
     )
 
-    # Detect execution environment
-    inside_jenkins = os.path.exists(
+    # Detect environment
+    inside_docker = os.path.exists(
         "/.dockerenv"
     )
 
-    grid_url = (
-        "http://host.docker.internal:4444"
-    )
+    # Grid URL
+    if inside_docker:
+
+        grid_url = (
+            "http://host.docker.internal:4444"
+        )
+
+    else:
+
+        grid_url = (
+            "http://localhost:4444"
+        )
 
     use_grid = False
 
+    # Detect Selenium Grid
     try:
 
         response = requests.get(
@@ -133,7 +147,7 @@ def driver():
             use_grid = True
 
             logger.info(
-                "Selenium Grid detected"
+                f"Selenium Grid detected at {grid_url}"
             )
 
     except Exception as e:
@@ -263,6 +277,7 @@ def pytest_runtest_makereport(item):
             "driver"
         )
 
+        # Screenshot Capture
         if driver:
 
             os.makedirs(
@@ -288,4 +303,35 @@ def pytest_runtest_makereport(item):
                 file_path,
                 name="Failure Screenshot",
                 attachment_type=allure.attachment_type.PNG
+            )
+
+        # AI Failure Analysis
+        try:
+
+            error_message = str(
+                report.longrepr
+            )
+
+            analysis = (
+                FailureAnalyzer.analyze(
+                    error_message
+                )
+            )
+
+            print(
+                "\n===== AI FAILURE ANALYSIS =====\n"
+            )
+
+            print(analysis)
+
+            allure.attach(
+                analysis,
+                name="AI Failure Analysis",
+                attachment_type=allure.attachment_type.TEXT
+            )
+
+        except Exception as e:
+
+            print(
+                f"AI analysis failed: {e}"
             )
