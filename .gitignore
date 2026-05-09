@@ -28,7 +28,7 @@ logs/
 .env
 
 # Config Files
-config/config.yaml
+
 
 # IDE Files
 .vscode/
