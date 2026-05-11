@@ -5,9 +5,7 @@ class FailureAnalyzer:
 
     @staticmethod
     def analyze(error):
-
         llm = LLMClient()
-
         prompt = f"""
         Analyze this Selenium/Pytest automation failure.
 
@@ -20,5 +18,4 @@ class FailureAnalyzer:
         Error:
         {error}
         """
-
         return llm.ask(prompt)

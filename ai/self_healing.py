@@ -10,9 +10,7 @@ class AILocatorHealer:
 
         page_source
     ):
-
         llm = LLMClient()
-
         prompt = f"""
         A Selenium locator failed.
 
@@ -25,7 +23,5 @@ class AILocatorHealer:
         Suggest ONLY ONE valid XPath locator.
         Return ONLY the XPath string.
         """
-
         response = llm.ask(prompt)
-
         return response.strip()

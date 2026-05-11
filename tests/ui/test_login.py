@@ -12,6 +12,7 @@ PASSWORD=env.get("password")
 @allure.story("Valid Login")
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.title("Validate Successful Login")
+@pytest.mark.ui
 def test_valid_login(driver):
     with allure.step("Open login page"):
         login_page = LoginPage(driver)
@@ -33,6 +34,7 @@ def test_valid_login(driver):
         ("", "", "email address is required")
     ]
 )
+@pytest.mark.ui
 def test_invalid_login(driver, email, password, expected_error):
     login_page = LoginPage(driver)
     login_page.open_login_page(BASE_URL)

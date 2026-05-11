@@ -1,6 +1,6 @@
 import uuid
 import allure
-
+import pytest
 from ai.test_data_generator import (
     TestDataGenerator
 )
@@ -10,6 +10,7 @@ from ai.test_data_generator import (
 @allure.feature("Create Notes")
 @allure.story("Create Note Successfully")
 @allure.title("Validate User Can Create Note")
+@pytest.mark.ui
 def test_create_note(notes_page):
 
     # AI-generated test data
@@ -58,6 +59,7 @@ def test_create_note(notes_page):
 @allure.title(
     "Validate Note Appears Immediately"
 )
+@pytest.mark.ui
 def test_note_visible_immediately(notes_page):
 
     # Static data for stability

@@ -1,24 +1,17 @@
 from selenium.webdriver.support.ui import (
     WebDriverWait
 )
-
 from selenium.webdriver.support import (
     expected_conditions as EC
 )
 
-
 class IntelligentWaits:
-
     @staticmethod
     def wait_for_clickable(
-
         driver,
-
         locator,
-
         timeout=10
     ):
-
         return WebDriverWait(
             driver,
             timeout
@@ -27,17 +20,12 @@ class IntelligentWaits:
                 locator
             )
         )
-
     @staticmethod
     def wait_for_visible(
-
         driver,
-
         locator,
-
         timeout=10
     ):
-
         return WebDriverWait(
             driver,
             timeout
@@ -46,17 +34,12 @@ class IntelligentWaits:
                 locator
             )
         )
-
     @staticmethod
     def wait_for_presence(
-
         driver,
-
         locator,
-
         timeout=10
     ):
-
         return WebDriverWait(
             driver,
             timeout

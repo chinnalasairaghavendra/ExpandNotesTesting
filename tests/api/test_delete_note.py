@@ -1,6 +1,7 @@
 import uuid
+import pytest
 
-
+@pytest.mark.api
 def test_delete_note(notes_api):
     unique_title = f"DELETE-{uuid.uuid4()}"
     create_response = notes_api.create_note(

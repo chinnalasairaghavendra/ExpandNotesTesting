@@ -1,7 +1,7 @@
 import uuid
 import json
 import allure
-
+import pytest
 from utils.logger import get_logger
 
 
@@ -21,6 +21,8 @@ logger = get_logger(__name__)
     """
 )
 @allure.tag("E2E", "UI", "API", "Regression")
+
+@pytest.mark.e2e
 def test_api_deleted_note_removed_from_ui(
         notes_page,
         notes_api

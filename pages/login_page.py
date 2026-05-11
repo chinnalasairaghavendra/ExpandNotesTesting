@@ -8,7 +8,6 @@ from pages.base_page import BasePage
 
 
 class LoginPage(BasePage):
-
     EMAIL_INPUT = (By.ID, "email")
     PASSWORD_INPUT = (By.ID, "password")
     LOGIN_BUTTON = (By.XPATH, "//button[text()='Login']")
@@ -24,38 +23,29 @@ class LoginPage(BasePage):
         self.type(self.PASSWORD_INPUT, password)
 
     def click_login(self):
-
         try:
-
             self.click(
                 self.LOGIN_BUTTON
             )
-
         except Exception as e:
-
             self.logger.warning(
                 "Primary locator failed. "
                 "Trying AI self-healing."
             )
             healed_locator = (
                 AILocatorHealer.heal_locator(
-
                     str(self.LOGIN_BUTTON),
-
                     self.driver.page_source
                 )
             )
-
             self.logger.info(
                 f"AI generated locator: "
                 f"{healed_locator}"
             )
-
             button = self.driver.find_element(
                 By.XPATH,
                 healed_locator
             )
-
             button.click()
 
     def login(self, email, password):
@@ -68,13 +58,11 @@ class LoginPage(BasePage):
         self.logger.info("Login button clicked")
 
     def get_error_message(self):
-
         try:
             toast = WebDriverWait(self.driver, 5).until(
                 EC.presence_of_element_located(self.ERROR_MESSAGE)
             )
             return toast.text
-
         except:
             try:
                 validation_error = WebDriverWait(self.driver, 5).until(
@@ -83,7 +71,6 @@ class LoginPage(BasePage):
                     )
                 )
                 return validation_error.text
-
             except:
                 return None
 

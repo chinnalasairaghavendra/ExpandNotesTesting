@@ -7,9 +7,7 @@ class TestDataGenerator:
 
     @staticmethod
     def generate_note():
-
         llm = LLMClient()
-
         prompt = """
         Generate realistic test note data.
 
@@ -24,7 +22,5 @@ class TestDataGenerator:
         Category must be one of:
         Home, Work, Personal
         """
-
         response = llm.ask(prompt)
-
         return json.loads(response)

@@ -16,7 +16,6 @@ services:
     volumes:
       - jenkins_home:/var/jenkins_home
 
-      # Docker socket access
       - /var/run/docker.sock:/var/run/docker.sock
 
     user: root

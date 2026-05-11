@@ -1,7 +1,9 @@
 from utils.logger import get_logger
+import pytest
 
 logger = get_logger(__name__)
 
+@pytest.mark.api
 def test_get_all_notes(notes_api):
     logger.info(
         "Starting test_get_all_notes"
@@ -17,7 +19,7 @@ def test_get_all_notes(notes_api):
         "test_get_all_notes PASSED"
     )
 
-
+@pytest.mark.api
 def test_notes_response_time(notes_api):
     response = notes_api.get_notes()
     response_time = response.elapsed.total_seconds()

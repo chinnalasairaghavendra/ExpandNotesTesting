@@ -1,7 +1,7 @@
 import uuid
 import json
 import allure
-
+import pytest
 from utils.logger import get_logger
 
 
@@ -20,6 +20,7 @@ logger = get_logger(__name__)
     """
 )
 @allure.tag("E2E", "UI", "API", "Regression")
+@pytest.mark.e2e
 def test_ui_created_note_exists_in_api(
         notes_page,
         notes_api
