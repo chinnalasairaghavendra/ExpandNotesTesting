@@ -5,6 +5,7 @@ from ai.self_healing import (
                 AILocatorHealer
             )
 from pages.base_page import BasePage
+from utils.dom_utils import DOMUtils
 
 
 class LoginPage(BasePage):
@@ -23,30 +24,43 @@ class LoginPage(BasePage):
         self.type(self.PASSWORD_INPUT, password)
 
     def click_login(self):
+
         try:
+
             self.click(
                 self.LOGIN_BUTTON
             )
+
         except Exception as e:
+
             self.logger.warning(
-                "Primary locator failed. "
-                "Trying AI self-healing."
+                "Primary login locator failed. "
+                "Trying AI self-healing locator."
             )
-            healed_locator = (
-                AILocatorHealer.heal_locator(
-                    str(self.LOGIN_BUTTON),
-                    self.driver.page_source
+
+            elements = (
+                DOMUtils
+                .get_interactable_elements(
+                    self.driver
                 )
             )
+
+            healed_locator = (
+                AILocatorHealer
+                .heal_locator(
+                    str(self.LOGIN_BUTTON),
+                    elements
+                )
+            )
+
             self.logger.info(
-                f"AI generated locator: "
+                f"AI generated healed locator: "
                 f"{healed_locator}"
             )
-            button = self.driver.find_element(
-                By.XPATH,
+
+            self.click(
                 healed_locator
             )
-            button.click()
 
     def login(self, email, password):
         self.logger.info(

@@ -23,6 +23,10 @@ class LLMClient:
                         model="longcat-flash-chat",
                         messages=[
                             {
+                                "role": "system",
+                                "content" : "You are an expert QA Automation Engineer specialized in pytest and Selenium."
+                            },
+                            {
                                 "role": "user",
                                 "content": prompt
                             }
